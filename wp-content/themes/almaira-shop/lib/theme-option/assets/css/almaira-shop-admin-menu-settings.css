@@ -1,0 +1,383 @@
+/**
+ * CSS code for all Bevro Extensions admin screens
+ *
+ * @package Bevro
+ * @since 1.0.0
+ */
+
+.almaira-shop-clear:before, .almaira-shop-clear:after {
+	content: " ";
+	display: table;
+}
+.almaira-shop-clear:after {
+	clear: both;
+}
+
+/**
+ * Error Message
+ */
+#message {
+    display: block;
+    margin-left: 0;
+}
+/*Home Page Settings */
+
+li#accordion-section-section_default_home h3 {
+    background: #a5a7ad !important;
+    color: #fff !important;
+}
+.button-large.flactvate{ display:none; }
+
+.flactvate-activating{
+  color:#f7a205;
+  margin-top: 15px;
+  display:none;
+  float: right;
+}
+.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #1b619d;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 1s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+    float: right;
+    margin-top: 10px;
+    display: none;
+      margin-left:5px;
+
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/**
+ * CSS code for all Bevro Extensions admin screens
+ *
+ * @package Bevro
+ * @since 1.2.4
+ */
+/**
+ * Bevro Welcome Page
+ */
+.appearance_page_almaira-shop #wpcontent{
+ 	padding: 0;
+ }
+.almaira-shop-menu-page-wrapper.wrap{
+	margin: 0;
+}
+.almaira-shop-menu-page-wrapper .almaira-shop-normal-cusror a{
+	text-decoration: none;
+    font-weight:500;
+    color: #fff;
+    font-size: 14px
+}
+.almaira-shop-theme-page-header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+.almaira-shop-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.almaira-shop-container .almaira-shop-normal-cusror.hndle{
+    cursor: initial;
+}
+.almaira-shop-container .postbox .hndle {
+    background: #f9f9f9;
+    border-bottom: 1px solid #f1f1f1;
+
+}
+/* Top Right Links. */
+.almaira-shop-top-links {
+    flex: auto;
+    text-align: right;
+}
+
+.almaira-shop-top-links ul{
+    margin: 0;
+}
+.almaira-shop-top-links ul li {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.almaira-shop-quick-setting-section span.dashicons {
+    margin: 1px 3px 0 10px;
+}
+.almaira-shop-container div.notice,
+.almaira-shop-container div.updated,
+.almaira-shop-container div.error{
+	margin-top: 0;
+}
+.almaira-shop-container #poststuff h2{
+	padding: 10px 12px;
+}
+.almaira-shop-container img.almaira-shop-starter-sites-img {
+    width: 100%;
+}
+.almaira-shop-flex{
+	-js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+.almaira-shop-theme-title {
+    align-content: flex-start;
+    text-align: left;
+}
+.almaira-shop-theme-title .almaira-shop-theme-version {
+    border-radius: 3px;
+    font-size:  0.5em;
+    font-weight:  400;
+    padding: 2px 7px;
+}
+.almaira-shop-theme-title a {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width:100%;
+    margin: 0 auto;
+}
+.almaira-shop-theme-title a,
+.almaira-shop-theme-title span{
+	font-size: 1.5rem;
+    color: #333333;
+    font-weight: 500;
+}
+
+.almaira-shop-theme-icon{
+	width: 60px;
+    vertical-align: bottom;
+}
+.almaira-shop-theme-title,.ast-top-links{
+width:100%;
+margin-bottom:10px;
+}
+.almaira-shop-top-links {
+    flex: auto;
+    text-align: center;
+}
+.almaira-shop-theme-page-header {
+    background-color: #FFDD4D;
+}
+.almaira-shop-theme-title a:focus,.almaira-shop-theme-title a:focus-within{
+outline:0;
+box-shadow:none;
+}
+.almaira-shop-menu-page-wrapper .almaira-shop-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+        align-items: flex-start;
+}
+.almaira-shop-menu-page-wrapper .almaira-shop-content .postbox{
+  width:48%;
+} 
+.almaira-shop-container .rcp{
+    display: block;
+    position: relative;
+    padding-bottom: 10px;
+}
+.almaira-shop-container .rcp img{
+    float: left;
+    display: block;
+    margin-right:10px;
+    width:17%;
+}
+.almaira-shop-container .rcp p{
+margin: 10px 0px;
+}
+.almaira-shop-container .rcp:last-child{
+border-bottom:0px;
+}
+/**
+ * Bevro Quick Settings
+ */
+ .almaira-shop-quick-setting-section ul,
+ .almaira-shop-addon-list-section ul{
+ 	margin: 0;
+ }
+.almaira-shop-quick-setting-section li{
+	border-bottom: 1px solid #eee;
+	margin-bottom: 0;
+}
+.almaira-shop-addon-list-section li{
+    -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1) inset;
+    margin-bottom: 0;
+}
+.almaira-shop-quick-setting-section li{
+    padding: 10px 0;
+}
+.almaira-shop-quick-setting-section li:nth-child(odd){
+    width: 50%;
+}
+.almaira-shop-quick-setting-section li:nth-child(even){
+    width: 50%;
+}
+.almaira-shop-quick-setting-section li a{
+	margin: 5px;
+	display: inline-block;
+}
+.almaira-shop-addon-list-section li{
+	padding: 10px 15px;
+}
+.almaira-shop-quick-setting-section a.ast-quick-setting-title{
+	flex: auto;
+}
+
+.almaira-shop-addon-list-section .almaira-shop-addon-list li {
+	-js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    padding: 10px 15px; 
+}
+
+.almaira-shop-addon-list-section .almaira-shop-addon-list li:nth-child(even){
+    background-color: #fbfbfb;
+}
+
+.almaira-shop-addon-link-wrapper{
+	-js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    flex: auto;
+}
+.almaira-shop-addon-link-wrapper a{
+    line-height: 1.6;
+}
+.almaira-shop-addon-link-wrapper a:nth-child(even){
+    margin: 0 10px;
+}
+
+/**
+ * almaira-shop Welcome screen sidebar
+ */
+.ast-sidebar .hndle .dashicons{
+	margin: 0 5px 0 0;
+}
+
+@media (max-width: 544px){
+	.almaira-shop-quick-setting-section li{
+		width: 100%;
+	}
+}
+
+/**
+ * almaira-shop Custom Notice for static position
+ */
+.brv-notice{
+    margin-bottom: 20px;
+}
+.ast-notice.ast-notice-error{
+    border-left-color: #dc3232;
+}
+
+.ast-notice{
+    background: #fff;
+    border-left: 4px solid #fff;
+    box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+    padding: 1px 12px;
+}
+.ast-notice p{
+    margin: 0.5em 0;
+    padding: 2px;
+}
+
+.almaira-shop-menu-page-wrapper .almaira-shop-content .postbox.almaira-shop-recommend-plugins,.almaira-shop-menu-page-wrapper .almaira-shop-content .postbox.almaira-shop-started-theme{
+width:100%;
+}
+.almaira-shop-container .postbox.almaira-shop-recommend-plugins .rcp {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+}
+.almaira-shop-menu-page-wrapper .almaira-shop-content .postbox.almaira-shop-started-theme .postbox{
+width: 33.33%;
+    float: left;
+    border: none;
+    box-shadow: none;
+}
+.almaira-shop-menu-page-wrapper .almaira-shop-content .postbox.almaira-shop-started-theme .postbox ol{
+    margin-left: 1em;
+}
+.almaira-shop-container .postbox.almaira-shop-recommend-plugins .rcp:nth-child(3n+3){
+margin-right:0;
+}
+
+.almaira-shop-container .postbox.almaira-shop-recommend-plugins .rcp:nth-child(4){
+clear:both;
+}
+.almaira-shop-container .postbox .inside {
+    margin: 15px 0!important;
+    position: relative;
+}
+
+.postbox.Importer img{
+width:30%;
+}
+.postbox.Importer .inside{
+overflow:hidden;
+}
+.almaira-shop-container .postbox.almaira-shop-recommend-plugins .rcp:nth-child(7) {
+    clear: both;
+}

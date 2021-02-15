@@ -1,0 +1,871 @@
+# Translation of Themes - Shophistic Lite in French (France)
+# This file is distributed under the same license as the Themes - Shophistic Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-23 16:07:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Shophistic Lite\n"
+
+#. Description of the theme
+msgid "Shophistic Lite is the perfect theme for your online shop. With a beautiful and unique design, is responsive and fully compatible with WooCommerce. The easiest way to create your online store and customize it with no coding skills required!"
+msgstr "Shophistic Lite est le thème parfait pour votre boutique en ligne. Avec un beau design unique, il est responsive et entièrement compatible avec WooCommerce. La méthode la plus facile pour créer votre boutique et la personnaliser sans compétences de code."
+
+#. Theme Name of the theme
+msgid "Shophistic Lite"
+msgstr "Shophistic Lite"
+
+#: framework/functions/theme_customizer.php:125
+msgid "Leave a review (it help us)"
+msgstr "Laissez un avis (cela nous aide)"
+
+#. Template Name of the theme
+msgid "Full Width"
+msgstr "Pleine Largeur"
+
+#: templates/content-none.php:2
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "Il semble que l'on ne peut pas trouver ce que vous rechercher."
+
+#: templates/content.php:26 templates/content-page.php:26
+msgid "Page"
+msgstr "Page"
+
+#: templates/beforeloop-search.php:4
+msgid "Search Results for: %s"
+msgstr "Résultats de la recherche pour&nbsp;: %s"
+
+#: pagination.php:12
+msgid "Next page"
+msgstr "Page suivante"
+
+#: options.php:476
+msgid "Sidebars"
+msgstr "Colonnes latérales"
+
+#: pagination.php:11
+msgid "Previous page"
+msgstr "Page précédente"
+
+#: options.php:410
+msgid "Links Typography"
+msgstr "Typographie des liens"
+
+#: options.php:415
+msgid "Links Font"
+msgstr "Police des liens"
+
+#: options.php:416
+msgid "Select the font for your links."
+msgstr "Sélectionnez la police pour vos liens."
+
+#: options.php:424
+msgid "Links Font Color"
+msgstr "Couleur de police des liens"
+
+#: options.php:425
+msgid "Select the color for your links."
+msgstr "Sélectionnez la couleur pour vos liens."
+
+#: options.php:432
+msgid "Links Font Weight"
+msgstr "Poids de police des liens"
+
+#: options.php:433
+msgid "Select the font wheight for your links."
+msgstr "Sélectionnez le poids de police pour vos liens."
+
+#: options.php:441 options.php:446
+msgid "Font Systems"
+msgstr "Systèmes de police"
+
+#: options.php:447
+msgid "Use a font system (Google Fonts)"
+msgstr "Utiliser un système de police (Google Fonts)"
+
+#: options.php:472
+msgid "Sidebars Generator"
+msgstr "Générateur de barres"
+
+#: options.php:406 options.php:438
+msgid "Bold"
+msgstr "BOLD"
+
+#: options.php:406 options.php:438
+msgid "Normal"
+msgstr "Moyen"
+
+#: options.php:378
+msgid "Content Typography"
+msgstr "Typographie de contenu"
+
+#: options.php:383
+msgid "Content Font"
+msgstr "Police de contenu"
+
+#: options.php:384
+msgid "Select the font for your text."
+msgstr "Sélectionnez la police pour vos textes"
+
+#: options.php:392
+msgid "Content Font Color"
+msgstr "Couleur de police de contenu"
+
+#: options.php:393
+msgid "Select the color for your text."
+msgstr "Sélectionnez la couleur pour vos textes"
+
+#: options.php:400
+msgid "Content Font Weight"
+msgstr "Poids de police de contenu"
+
+#: options.php:401
+msgid "Select the font weight for your text."
+msgstr "Sélectionnez le poids de police pour vos textes"
+
+#: options.php:332
+msgid "Visa"
+msgstr "Visa"
+
+#: options.php:346
+msgid "Shop"
+msgstr "Boutique"
+
+#: options.php:373
+msgid "Typography"
+msgstr "Typographie"
+
+#: options.php:312
+msgid "Show Discover Icon"
+msgstr "Afficher l’icône Discover"
+
+#: options.php:318
+msgid "Master Card"
+msgstr "Master Card"
+
+#: options.php:319
+msgid "Show Master Card Icon"
+msgstr "Afficher l’icône Master Card"
+
+#: options.php:325
+msgid "Stripe"
+msgstr "Stripe"
+
+#: options.php:326
+msgid "Show Stripe Icon"
+msgstr "Afficher l’icône Stripe"
+
+#: options.php:333
+msgid "Show Visa Icon"
+msgstr "Afficher l’icône Visa"
+
+#: options.php:350
+msgid "Show sidebar on Single Products page"
+msgstr "Afficher la barre sur les produits"
+
+#: options.php:351
+msgid "Select if you want the Shop Sidebar on your single product page."
+msgstr "Sélectionnez si vous voulez la barre de boutique sur vos produits."
+
+#: options.php:257
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr "Ajouter rapidement un peu de CSS à votre thème en l'ajoutant à cette zone."
+
+#: options.php:278
+msgid "Footer Text"
+msgstr "Texte de pied de page"
+
+#: options.php:311
+msgid "Discover"
+msgstr "Discover"
+
+#: options.php:279
+msgid "Custom HTML and Text that will appear at the bottom of your site."
+msgstr "HTML personnalisé et texte qui seront affichés en bas de votre site."
+
+#: options.php:285
+msgid "Designed by Quema Labs"
+msgstr "Design par Quema Labs"
+
+#: options.php:286
+msgid "If you are happy with the Theme you can give us credit just by adding a small link."
+msgstr "Si vous êtes content de ce thème vous pouvez nous laisser un crédit en ajoutant un petit lien."
+
+#: options.php:292
+msgid "Payment Methods Icons"
+msgstr "Icônes de méthodes de paiement"
+
+#: options.php:297
+msgid "Paypal"
+msgstr "Paypal"
+
+#: options.php:298
+msgid "Show Paypal Icon"
+msgstr "Afficher l’icône Paypal"
+
+#: options.php:304
+msgid "American Express"
+msgstr "American Express"
+
+#: options.php:305
+msgid "Show American Express Icon"
+msgstr "Afficher l’icône American Express"
+
+#: options.php:243
+msgid "Links Color"
+msgstr "Couleur des liens"
+
+#: options.php:256
+msgid "Custom CSS"
+msgstr "CSS Personalisé"
+
+#: options.php:236
+msgid "Select the color for text in the header."
+msgstr "Sélectionnez la couleur pour le texte dans l’en-tête."
+
+#: options.php:244
+msgid "Select the color for links in the header (not main menu)."
+msgstr "Sélectionnez la couleur pour les liens dans l’en-tête (pas le menu principal)"
+
+#: options.php:183
+msgid "Custom Logo"
+msgstr "Votre logo"
+
+#: options.php:200
+msgid "Styling"
+msgstr "Style"
+
+#: options.php:235
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: options.php:184
+msgid "Upload a logo for your theme, or specify the image address of your online logo. (http://yoursite.com/logo.png)"
+msgstr "Envoyez de logo pour votre thème ou spécifiez l’adresse de l’image de votre logo. (http://yoursite.com/logo.png)"
+
+#: options.php:189
+msgid "Custom Logo Retina size"
+msgstr "Taille Retina de logo personnalisé"
+
+#: options.php:190
+msgid "Upload the logo for retina screens. (Same logo, twice the size)"
+msgstr "Envoi duu logo pour les écrans Retina . (Même logo de taille double)"
+
+#: options.php:205
+msgid "Featured Color"
+msgstr "Couleur mise en avant"
+
+#: options.php:206
+msgid "Select the featured color for the Theme."
+msgstr "Sélectionnez la couleur mise en avant pour le thème"
+
+#: options.php:213
+msgid "Contrast Color"
+msgstr "Couleur de constraste"
+
+#: options.php:214
+msgid "This color should contrast with the Featured Color."
+msgstr "Cette couleur doit contraster avec la couleur mise en avant"
+
+#: options.php:222
+msgid "Headings Color"
+msgstr "Couleur des en-têtes"
+
+#: options.php:223
+msgid "Select the background color for the Theme."
+msgstr "Sélectionnez la couleur d’arrière plan pour le thème."
+
+#: options.php:136
+msgid "Theme Info"
+msgstr "Information du thème"
+
+#: options.php:179 options.php:230
+msgid "Header"
+msgstr "Entête"
+
+#: options.php:162
+msgid "Sidebar side"
+msgstr "Barre de côté"
+
+#: options.php:163
+msgid "Select if you want the Sidebar on the right or left."
+msgstr "Sélectionnez si vous voulez la barre à droite ou à gauche."
+
+#: options.php:54
+msgid "Omelette"
+msgstr "Omelette"
+
+#: options.php:55
+msgid "Crepe"
+msgstr "Cr&egrave;pe"
+
+#: options.php:56
+msgid "Waffle"
+msgstr "Gaufre"
+
+#: options.php:131
+msgid "General Settings"
+msgstr "Réglages générales"
+
+#: options.php:46
+msgid "Five"
+msgstr "Cinq"
+
+#: options.php:52
+msgid "French Toast"
+msgstr "Pain Perdu"
+
+#: options.php:53
+msgid "Pancake"
+msgstr "Pancake"
+
+#: options.php:44
+msgid "Three"
+msgstr "Trois"
+
+#: options.php:45
+msgid "Four"
+msgstr "Quatre"
+
+#: options.php:42
+msgid "One"
+msgstr "Un"
+
+#: options.php:43
+msgid "Two"
+msgstr "Deux"
+
+#: meta.php:10
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: meta.php:10
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: meta.php:10
+msgid "No Comments"
+msgstr "0 Commentaires"
+
+#: header.php:101
+msgid "Login"
+msgstr "Se connecter"
+
+#: header.php:97
+msgid "My Account"
+msgstr "Mon Compte"
+
+#: framework/functions/theme_customizer.php:137
+msgid "Left"
+msgstr "&Agrave; gauche"
+
+#: framework/functions/theme_customizer.php:136
+msgid "Right"
+msgstr "À droite"
+
+#: framework/functions/theme_customizer.php:124
+msgid "Documentation"
+msgstr "Consultez la documentation."
+
+#: framework/functions/theme_customizer.php:89
+msgid "Footer Widgets"
+msgstr "Widgets De Pied De Page"
+
+#: framework/functions/theme_customizer.php:60
+msgid "Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to create an awesome home page."
+msgstr "Commandez la <a href=\"%s\" target=\"_blank\">version PRO</a> pour créer une formidable page d’accueil."
+
+#: framework/functions/theme_customizer.php:69
+msgid "Sidebar Side"
+msgstr "Barre de côté"
+
+#: framework/functions/theme_customizer.php:70
+msgid "Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to choose the side of the sidebar."
+msgstr "Commandez la <a href=\"%s\" target=\"_blank\">version PRO</a> pour choisir le côté de la barre."
+
+#: framework/functions/theme_customizer.php:79
+msgid "Mega Menus"
+msgstr "Mega Menus"
+
+#: framework/functions/theme_customizer.php:80
+msgid "Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to create mega menus."
+msgstr "Commandez la <a href=\"%s\" target=\"_blank\">version PRO</a> pour créer des mégas menus."
+
+#: framework/functions/theme_customizer.php:90
+msgid "Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to add widgets in the footer of your site."
+msgstr "Commandez la <a href=\"%s\" target=\"_blank\">version PRO</a> pour ajouter des widgets dans le pied de votre site."
+
+#: framework/functions/theme_customizer.php:59
+msgid "Home Page"
+msgstr "Page d'accueil"
+
+#: framework/functions/theme_customizer.php:50
+msgid "Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to change logo."
+msgstr "Commandez la <a href=\"%s\" target=\"_blank\">version PRO</a> pour changer le logo."
+
+#: framework/functions/theme_customizer.php:49
+msgid "Logo"
+msgstr "Logo"
+
+#: framework/functions/custom_functions.php:21
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: framework/functions/custom_comments.php:40
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: framework/functions/custom_comments.php:38
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/functions/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation de l'extension %1$s (%2$d/%3$d)"
+
+#: framework/functions/custom_comments.php:26
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire attend d'être modéré"
+
+#. translators: 1: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s a bien été installé."
+
+#: framework/functions/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Toutes les installations sont terminées."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/functions/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation et activation de l'extension %1$s (%2$d/%3$d)"
+
+#: framework/functions/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Démarrage de l'installation. Cela, selon l'hôte, peut prendre un certain temps. Patienter...."
+
+#: framework/functions/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Toutes les instalations et activations ont été effectuées."
+
+#. translators: 1: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:3509
+#: framework/functions/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Masquer les détails"
+
+#. translators: 1: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:3509
+#: framework/functions/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Voir détails"
+
+#. translators: 1: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s a bien été installé et activé."
+
+#. translators: 1: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "L'installation de %1$s a échoué."
+
+#: framework/functions/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Démarrage de l'installation et de l'activation de l'extension. Son déroulement, selon l'hôte, peut prendre un certain temps. Patienter..."
+
+#. translators: 1: plugin name, 2: error message.
+#: framework/functions/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Une erreur est survenue lors de l'installation de&nbsp;: %1$s&nbsp;: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/functions/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Mise à jour de l&rsquo;extension %1$s (%2$d/%3$d)"
+
+#: framework/functions/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Aucune extension n'a été sélectionnée pour être installée. Aucune action ne sera effectuée."
+
+#: framework/functions/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Aucune extension n'a été sélectionnée pour être mise à jour. Aucune action ne sera effectuée. "
+
+#: framework/functions/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "Pas d'extensions disponibles pour être installées en ce moment."
+
+#: framework/functions/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "Aucune mise à jour n'est disponible pour les extensions pour le moment."
+
+#: framework/functions/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Aucune extension n'a été sélectionnée pour être activée. Aucune action ne sera effectuée."
+
+#: framework/functions/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "Pas d'extensions disponibles pour être activées en ce moment."
+
+#: framework/functions/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "L'activation de l'extension a échoué."
+
+#: framework/functions/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Activée"
+
+#: framework/functions/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Actualiser"
+
+#: framework/functions/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Message de mise à niveau de l&rsquo;auteur de l'extension&nbsp;:"
+
+#: framework/functions/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Installer"
+
+#: framework/functions/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "&Eacute;tat"
+
+#: framework/functions/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Version"
+
+#: framework/functions/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Genre"
+
+#: framework/functions/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Action groupée"
+
+#: framework/functions/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Version minimale requise&nbsp;:"
+
+#: framework/functions/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Version disponible :"
+
+#: framework/functions/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Plugin"
+
+#. translators: 1: number of plugins.
+#: framework/functions/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "A activer <span class=\"count\">(%s)</span>"
+msgstr[1] "A activer <span class=\"count\">(%s)</span>"
+
+#: framework/functions/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "inconnue"
+
+#: framework/functions/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Version installée&nbsp;:"
+
+#. translators: 1: number of plugins.
+#: framework/functions/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "A Installer <span class=\"count\">(%s)</span>"
+msgstr[1] "A Installer <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: framework/functions/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Mise à jour disponible&nbsp;: <span class=\"count\">(%s)</span>"
+msgstr[1] "Mises à jour disponibles&nbsp;: <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: framework/functions/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Tous <span class=\"count\">%s</span>"
+msgstr[1] "Tous <span class=\"count\">%s</span>"
+
+#: framework/functions/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Mise à jour requise non disponible"
+
+#: framework/functions/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Mise à jour requise"
+
+#: framework/functions/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Mise à jour recommandée"
+
+#: framework/functions/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Installé(e) mais non activé(e)"
+
+#: framework/functions/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Actifs"
+
+#: framework/functions/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Pas installé"
+
+#: framework/functions/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Dépôt WordPress"
+
+#: framework/functions/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Source externe"
+
+#: framework/functions/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Pré-packagé"
+
+#: framework/functions/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Recommandé"
+
+#: framework/functions/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Le paquet distant de l'extension ne contient pas de dossier avec l&rsquo;identifiant désiré et le renommage n'a pas fonctionné."
+
+#: framework/functions/class-tgm-plugin-activation.php:934
+#: framework/functions/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Veuillez contacter le fournisseur de l'extension et demandez-lui d'empaqueter son extension en respectant les instructions de WordPress."
+
+#: framework/functions/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Le paquet distant de l'extension contient plus d'un fichier, mais les fichiers ne sont pas empaquetés dans un dossier."
+
+#: framework/functions/class-tgm-plugin-activation.php:1121
+#: framework/functions/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "et"
+
+#: framework/functions/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Nécessaire"
+
+#: framework/functions/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Veuillez contacter l'administrateur du site pour le support."
+
+#: framework/functions/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Cette extension doit être mise à jour pour être compatible avec votre thème."
+
+#: framework/functions/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Mise à jour requise"
+
+#: framework/functions/class-tgm-plugin-activation.php:386
+#: framework/functions/class-tgm-plugin-activation.php:827
+#: framework/functions/class-tgm-plugin-activation.php:2533
+#: framework/functions/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Retour au tableau de bord"
+
+#. translators: 1: dashboard link.
+#: framework/functions/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Toutes les extensions ont été installées et activées. %1$s"
+
+#: framework/functions/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Rejeter cette avertissement"
+
+#: framework/functions/class-tgm-plugin-activation.php:388
+#: framework/functions/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "L'extension suivante a bien été activée:"
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Aucune action effectuée. L'extension %1$s était déjà activée."
+
+#. translators: 1: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Extension non activée. Une version plus récente de %s est requise pour ce thème. Merci de mettre à jour l&rsquo;extension."
+
+#: framework/functions/class-tgm-plugin-activation.php:387
+#: framework/functions/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "L'extension a bien été activée."
+
+#: framework/functions/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Commencer à activer l&rsquo;extension"
+msgstr[1] "Commencer l'activation les extensions"
+
+#: framework/functions/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Retour à l'installation des extensions requises."
+
+#: framework/functions/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Commencer l'installation de l&rsquo;extension"
+msgstr[1] "Commencer l'installation des extensions"
+
+#: framework/functions/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Démarrage de la mise à jour de l'extension"
+msgstr[1] "Démarrage de la mise à jour des extensions"
+
+#. translators: 1: plugin name(s).
+#: framework/functions/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Les attributs requis plugin est actuellement inactive : %1$s."
+msgstr[1] "Les attributs requis plugins sont actuellement inactifs : %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/functions/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Plugin est actuellement inactive a recommandé ce qui suit : %1$s."
+msgstr[1] "Plugins sont actuellement inactifs a recommandé ce qui suit : %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/functions/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Le plugin suivant doit être mis à jour pour sa version la plus récente pour assurer une compatibilité maximale avec ce thème : %1$s."
+msgstr[1] "Les plugins suivants doivent être mis à jour vers leur dernière version afin d'assurer une compatibilité maximale avec ce thème : %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/functions/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Une mise à jour est disponible pour&nbsp;: %1$s."
+msgstr[1] "Des mises à jour sont disponibles pour les extensions suivantes&nbsp;: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/functions/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ce thème recommande l'extension suivante : %1$s."
+msgstr[1] "Ce thème recommande les extensions suivantes : %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/functions/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ce thème nécessite l&rsquo;extension suivante&nbsp;: %1$s."
+msgstr[1] "Ce thème nécessite les extensions suivantes&nbsp;:%1$s."
+
+#: framework/functions/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Une erreur est survenue avec l&rsquo;API de l'extension."
+
+#. translators: %s: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Extension en cours d&rsquo;installation&nbsp;: %s"
+
+#: framework/functions/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Installer des extensions"
+
+#: framework/functions/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Installer les extensions requises"
+
+#: framework/Theme.php:166
+msgid "Social"
+msgstr "Réseaux sociaux"
+
+#: footer.php:8
+msgid "Theme: %1$s by %2$s."
+msgstr "Traduit par <a href=\"http://www.wptrads.com\" target= _blank>Wp Trads</a>. Thème %1$s par %2$s"
+
+#: framework/Theme.php:165
+msgid "Navigation Menu"
+msgstr "Menu de navigation"
+
+#: footer.php:8
+msgid "WordPress"
+msgstr "WordPress"
+
+#: footer.php:8
+msgid "Powered by "
+msgstr "Fièrement propulsé par"
+
+#: footer.php:8
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: comments.php:104
+msgid "Website"
+msgstr "Site internet"
+
+#: comments.php:95
+msgid "Email"
+msgstr "Adresse mail"
+
+#: comments.php:86
+msgid "Name"
+msgstr " Nom"
+
+#: comments.php:16
+msgid "% Responses"
+msgstr "% réponses"
+
+#: comments.php:74
+msgid "Comment"
+msgstr "Commentaire"
+
+#: comments.php:16
+msgid "No Responses"
+msgstr "Pas de réponses"
+
+#: comments.php:16
+msgid "One Response"
+msgstr "Une réponse"
+
+#: 404.php:7
+msgid "Error 404 - Not Found"
+msgstr "Erreur 404 - Page non trouvée"
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Cet article est protégé par un mot de passe. Saisissez le mot de passe pour voir les commentaires."
+
+#: 404.php:8
+msgid "Sorry, but the requested resource was not found on this site. Please try again or contact the administrator for assistance."
+msgstr "Désolé, mais la ressource demandée n’a pas été trouvée sur ce site. Veuillez essayer à nouveau ou contacter l’administrateur."
+
+#. Theme URI of the theme
+msgid "https://www.quemalabs.com/theme/shophistic-lite/"
+msgstr "https://www.quemalabs.com/theme/shophistic-lite/"
+
+#. Author of the theme
+msgid "Quema Labs"
+msgstr "Quema Labs"
+
+#. Author URI of the theme
+msgid "https://www.quemalabs.com/"
+msgstr "https://www.quemalabs.com/"

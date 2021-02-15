@@ -1,0 +1,147 @@
+@font-face {
+	font-family: 'ast-logo';
+	src:    url('fonts/ast-logo.eot?476cfz');
+	src:    url('fonts/ast-logo.eot?476cfz#iefix') format('embedded-opentype'),
+		url('fonts/ast-logo.ttf?476cfz') format('truetype'),
+		url('fonts/ast-logo.woff?476cfz') format('woff'),
+		url('fonts/ast-logo.svg?476cfz#ast-logo') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+#wp-admin-bar-almaira-shop .ab-icon:before,
+#toplevel_page_almaira-shop .wp-menu-image:before,
+[class^="ast-icon-"],
+[class*=" ast-icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'ast-logo' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.appearance_page_almaira-shop #wpcontent {
+    padding: 0;
+}
+#wp-admin-bar-almaira-shop .ab-icon:before,
+#toplevel_page_almaira-shop .wp-menu-image:before,
+.ast-icon-logo:before {
+	content: "\e900" !important;
+}
+
+#side-sortables #almaira-shop_settings_meta_box select {
+	min-width: 100%;
+}
+
+#normal-sortables #almaira-shop_settings_meta_box select {
+	min-width: 200px;
+}
+
+.customize-control {
+	position: relative;
+}
+
+.customize-control .ast-control-tooltip {
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+.customize-control.customize-control-ast-divider .ast-control-tooltip {
+    position: absolute;
+    top: auto;
+    bottom: 3px;
+    right: 0;
+}
+.almaira-shop-review-notice-container {
+	display: flex;
+	align-items: center;
+	padding-top: 10px;
+}
+
+.almaira-shop-review-notice-container .dashicons {
+    font-size: 1.4em;
+	padding-left: 10px;
+}
+
+.almaira-shop-review-notice-container a {
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.almaira-shop-review-notice-container .dashicons:first-child {
+    padding-left: 0;
+}
+
+.notice-image img {
+    max-width: 90px;
+}
+
+.notice-content .notice-heading {
+    padding-bottom: 5px;
+}
+
+.notice-content {
+    margin-left: 15px;
+}
+
+.notice-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+/*theme notice */
+.notice.almaira-shop-notice {
+position: relative;
+}
+.notice.almaira-shop-notice .button-hero:hover{
+background:#0680bb;
+border-color: #0680bb #0680bb #0680bb;
+}
+
+#white-level{
+background: #0073aa;
+    border-bottom: 1px solid #e6e6e6;
+    color: #fff;
+    padding: 10px 12px;
+    display: flow-root;
+}
+
+#white-level a{
+font-size: 14px;
+    margin: 0;
+    line-height: 1.4;
+color:#fff;
+font-weight: 600;
+}
+
+.bvr-addon-title{
+float:left;
+display:block;
+}
+.bvr-learn-more{
+float:right;
+}
+#poststuff h3.hndle {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+    background: #0073aa;
+    border-bottom: 1px solid #e6e6e6;
+    color: #fff;
+}
+.about-wrap h1 {
+    margin: 0;
+    padding: 0;
+    color: #32373c;
+    line-height: 1.2;
+    font-size: 23px;
+    font-weight: 400;
+}

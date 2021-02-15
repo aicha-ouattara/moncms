@@ -1,0 +1,1560 @@
+/* --------------------------------------
+/* Responsive Menu style
+----------------------------------------*/
+.almaira-shop-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;      
+}
+.shrink .main-header-bar{
+    padding:7px 0px;
+}
+.almaira-shop-menu li{
+    list-style: none;
+}
+.almaira-shop-menu li ul{
+    display:none;
+}
+.almaira-shop-menu > li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    float: left;
+}
+.almaira-shop-menu li a:hover,.almaira-cart ul.cart_list li a:hover,
+.almaira-shop-menu .current-menu-item a {
+    color:#bd8348;
+}
+.almaira-shop-menu li a {
+  font-family: 'Lato-Regular',sans-serif;
+  color:#242424;
+      font-size: 15px;
+}
+.almaira-shop-menu > li > a {
+    display: block;
+    position: relative;
+    margin: 0;
+    border: 0px;
+    padding: 14PX;
+    text-decoration: none;
+}
+.almaira-shop-menu li a i {
+    padding-right: 5px;
+}
+.almaira-shop-menu > li > a i {
+    font-size: 16px;
+    text-shadow: none;
+    color: #FF5737;
+}
+.almaira-shop-menu li ul.sub-menu li a i {
+    padding-right: 10px;
+}
+.almaira-shop-menu li.on-section a {
+    color:#bd8348;
+}
+.almaira-shop-menu li .menu-active {
+    position: relative;
+}
+.almaira-shop-menu > li > a > .arrow:before {  
+    margin-left: 15px;
+    font-family: FontAwesome;
+    height: auto;
+    content: "\f107";
+    font-weight: 300;
+    text-shadow: none;
+    width: 10px;
+}
+.almaira-shop-menu li ul.sub-menu li > a > .arrow:before {
+    content: "\f105" !important;
+}
+.almaira-shop-menu > li > ul.sub-menu {
+    display: none;
+    list-style: none;
+    clear: both;
+    margin: 0;
+    position: absolute;
+    z-index: 99999;
+}
+.almaira-shop-menu  ul.sub-menu {
+box-shadow: 0 4px 10px 0 rgba(3,3,3,.1);
+    padding:15px 0px;
+min-width: 166px;
+display: none;
+z-index: 99;
+background-color: #fff;
+
+}
+.almaira-shop-menu li ul.sub-menu > li {
+    width: 185px;
+}
+.almaira-shop-menu li ul.sub-menu li a {
+    display: block;
+    margin: 0px 0px;
+    padding:10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    background: none;
+}
+.almaira-shop-menu > li > ul.sub-menu > li {
+    position: relative;
+        line-height: initial;
+}
+.almaira-shop-menu > li > ul.sub-menu > li ul.sub-menu {
+    position: absolute;
+    left: 185px;
+    top: 0px;
+    display: none;
+    list-style: none;
+    margin: 0;
+}
+.almaira-shop-menu > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
+    position: absolute;
+    left: 185px;
+    top: 0px;
+    display: none;
+    list-style: none;
+}
+.almaira-shop-menu > li > ul.sub-menu li > a > .arrow:before {
+    float: right;
+    margin-right: 0px;
+    display: inline;
+    font-size: 16px;
+    font-family: FontAwesome;
+    height: auto;
+    content: "\f104";
+    text-shadow: none;
+}
+#almaira-above-menu.almaira-shop-menu li ul.sub-menu {
+    text-align: left;
+}
+/* Menu Toggle Btn
+----------------------------------------*/
+.menu-toggle {
+    display: none;
+    width: 100%;
+}
+.menu-toggle h3,.bar-menu-toggle h3 {
+    float: left;
+    color: #FFF;
+    padding: 0px 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.menu-toggle .icon-bar{
+    display: block !important;
+    width: 25px;
+    height: 2px;
+    background-color:#242424;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    margin:6px;
+}
+.menu-toggle .menu-btn{
+    float: right;
+    background: transparent;
+}
+
+.almaira-shop-menu .hide-menu {
+    display: none;
+}
+.menu-close-btn:hover{
+    cursor:pointer;
+}
+
+/*min-bar hamburger menu*/
+.bar-menu-toggle{
+    vertical-align: middle;
+}
+
+.menu-icon-inner {
+    width: 30px;
+    height: 20px;
+    display: block;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.menu-icon-inner {
+    border-bottom: 2px solid;
+    box-sizing: border-box;
+    display:block;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.bar-menu-toggle .menu-btn{
+height: 2px;
+background-color:transparent;
+}
+.menu-icon-inner:before {
+    top: 0;
+}
+.menu-icon-inner:before, .menu-icon-inner:after {
+    content: '';
+    display: block;
+    border-top: 2px solid;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transition: all .7s ease;
+    transition-property: transform;
+}
+.menu-icon-inner:after {
+    top: 50%;
+}
+.menu-icon-inner:before, .menu-icon-inner:after {
+    content: '';
+    display: block;
+    border-top: 2px solid;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transition: all .7s ease;
+    transition-property: transform;
+}
+
+.mobile-pan-active .menu-icon-inner {
+border: none;
+}
+.mobile-pan-active .menu-icon-inner:before {
+    -webkit-transform: rotateZ(-45deg);
+    -moz-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+.mobile-pan-active .menu-icon-inner:before, .mobile-pan-active .menu-icon-inner:after {
+    top: 50%;
+}
+
+.mobile-pan-active .menu-icon-inner:after {
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+/* Accordion Menu Styles
+----------------------------------------*/
+
+ul[data-menu-style="accordion"] {
+    width: 250px;
+}
+ul[data-menu-style="accordion"] > li {    
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    float: none !important;
+}
+ul[data-menu-style="accordion"] li ul.sub-menu > li {
+    width: 100%;
+}
+ul[data-menu-style="accordion"] > li > a > .arrow:before {
+    float: right;
+    content: "\f105";
+}
+ul[data-menu-style="accordion"] li.menu-active > a > .arrow:before {
+    content: "\f107" !important;
+}
+ul[data-menu-style="accordion"] > li > ul.sub-menu {
+    position: static;
+}
+ul[data-menu-style="accordion"] > li > a i {
+    padding-right: 10px;
+    color: #FF5737;
+}
+ul[data-menu-style="accordion"] > li > ul.sub-menu > li ul.sub-menu {
+    position: static;
+}
+ul[data-menu-style="accordion"] > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
+    position: static;
+}
+ul[data-menu-style="accordion"] > li {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+ul[data-menu-style="accordion"] ul.sub-menu li.menu-active > a > .arrow:before {
+    content: "\f107" !important;
+}
+
+/* Vertical Menu Styles
+----------------------------------------*/
+
+ul[data-menu-style="vertical"] {
+    width: 200px;
+}
+ul[data-menu-style="vertical"] > li {
+    float: none;
+}
+ul[data-menu-style="vertical"] > li:first-child {
+    border-top: 2px solid #FD5025;
+}
+ul[data-menu-style="vertical"] li ul.sub-menu > li {
+    width: 100%;
+}
+ul[data-menu-style="vertical"] > li > a > .arrow:before {
+    float: right;
+    content: "\f105";
+}
+ul[data-menu-style="vertical"] > li.menu-active {
+position:relative;
+}
+ul[data-menu-style="vertical"] > li > ul.sub-menu {
+    position: absolute;
+    left:200px;
+    top:0px;
+    width:200px;
+}
+ul[data-menu-style="vertical"] > li > a i {
+    padding-right: 10px;
+    color: #FF5737;
+}
+ul[data-menu-style="vertical"]> li > ul.sub-menu > li ul.sub-menu {
+    position: absolute;
+    width:200px;
+    left: 200px;
+}
+ul[data-menu-style="vertical"] > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
+    position: absolute;
+    width:200px;
+    left: 200px;
+}
+ul[data-menu-style="vertical"] > li {
+    border-bottom: 1px solid #242424;
+}
+.header-pan-icon{
+    display:none;
+}
+.sider-inner ul#almaira-shop-menu,.main-header .menu-all-pages-container ul.almaira-shop-menu{ 
+ padding-left:0px;  
+}
+.mobile-menu-active .main-header .sider-inner .menu-all-pages-container ul.almaira-shop-menu > li > a:hover{
+    background: transparent;
+}
+/* Responsive Menu Styles
+----------------------------------------*/
+/*Note: change the max-width asper your requirment and change the same in aceResponsiveMenu({resizeWidth: "768" }) function*/
+/****************************/
+/*start hamgurger menu full width*/
+.mhdfull .top-header .menu-toggle,.mhdfull .bottom-header .menu-toggle{
+display:none!important;
+}
+/*****************************/
+.main-header.mhdfull .menu-toggle{
+    display:block!important;
+}
+.mobile-menu-active .mhdfull .sider.almaira-shop-menu-hide.left{
+left: -300px;
+right: auto;
+transition: left 0.3s ease;
+}
+.mobile-menu-active .mhdfull .sider.almaira-shop-menu-hide.right{
+left: auto;
+right:-300px;
+transition: right 0.3s ease;
+}
+.mobile-menu-active .mhdfull .almaira-shop-menu .searchfrom #searchform{
+display:block;
+position: relative;
+}
+.mobile-menu-active .mhdfull .almaira-shop-menu  .searchfrom .search-btn{
+display:none;
+}
+.mobile-menu-active .mhdfull li.menu-item.zta-custom-item{
+padding:18px 0px;
+    border: none;
+}
+.mobile-menu-active .mhdfull .almaira-shop-menu .searchfrom{
+float:left;
+}
+.main-header.mhdfull .menu-custom-search .content-social ul.social-icon li{
+
+display: -webkit-inline-box;
+}
+
+.main-header.mhdfull .menu-custom-search .content-social ul.social-icon{
+    margin: 0;
+    display: block;
+}
+.main-header.mhdfull .demo{
+        width:96%;
+        padding:2%;
+    }
+    ul[data-menu-style="vertical"] , ul[data-menu-style="accordion"],
+    ul[data-menu-style="vertical"] li ul.sub-menu {
+        width: 100% !important;
+    } 
+.main-header.mhdfull .almaira-shop-menu {
+        float: left;
+        width:100%;
+    }
+.main-header.mhdfull .almaira-shop-menu > li {
+        border-bottom: 1px solid #eee;
+       float: none;
+    }       
+.main-header.mhdfull .almaira-shop-menu > li > a i {
+        padding-right: 10px;
+        color: #FF5737;
+    }
+.main-header.mhdfull .almaira-shop-menu > li > a > .arrow:before {
+        float: right;
+        content: "\f105";
+    }
+.main-header.mhdfull .sider.left .almaira-shop-menu > li, 
+.main-header.mhdfull .sider.right .almaira-shop-menu > li {
+    border-bottom: 1px solid #eee;
+    float: none;
+    }
+.main-header.mhdfull .left .menu-item-has-children ul{
+    padding-left:15px;
+    }
+.main-header.mhdfull .right .menu-item-has-children ul{
+     padding-right:15px;
+     }
+.main-header.mhdfull .almaira-shop-menu li ul.sub-menu li a {
+    display: block;
+    margin: 0px 0px;
+    padding: 15px 40px 15px 0px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: normal;
+    background: none;
+}
+   .main-header.mhdfull li.menu-active > a > .arrow:before {
+        content: "\f107" !important;
+    }
+   .main-header.mhdfull .almaira-shop-menu li ul.sub-menu > li {
+        width: 100%;
+    }
+    .main-header.mhdfull .almaira-shop-menu li ul.sub-menu li ul.sub-menu li a{
+        padding-left: 30px;
+    }  
+    .mhdfull .almaira-shop-menu li ul.sub-menu li ul.sub-menu li ul.sub-menu li a  {
+        padding-left: 50px;
+    }  
+    .main-header.mhdfull .almaira-shop-menu > li > ul.sub-menu {
+        position: static;
+    }
+    .main-header.mhdfull .almaira-shop-menu > li > ul.sub-menu > li ul.sub-menu {
+        position: static;
+    }
+    .main-header.mhdfull .almaira-shop-menu > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
+        position: static;
+    }
+    .main-header.mhdfull .almaira-shop-menu li ul.sub-menu li.menu-active > a > .arrow:before {
+        content: "\f107" !important;
+    }
+  .main-header.mhdfull .almaira-shop-menu > li > a{
+    padding: 15px 40px 15px 0px!important;
+   }   
+/*menu-advance-style*/
+.logged-in.admin-bar .main-header.mhdfull .sider{
+top:32px;
+}
+.main-header.mhdfull .sider.left {
+    display: block;
+    position: fixed;
+    top: 0;
+        height: 100vh;
+    z-index: 999999;
+    width: 280px;
+    padding: 2em 1.5em;
+    max-width: 100%;
+    border-right: 1px solid rgba(0,0,0,.1);
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 15px;
+    background-color: #fff;
+    color: #555;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-overflow-scrolling: touch;
+}
+.main-header.mhdfull .sider.left {
+    left:-280px;
+    right: auto;
+    transition: left 0.2s ease;
+}
+.main-header.mhdfull .sider.left .almaira-shop-menu > li,
+.main-header.mhdfull .sider.right .almaira-shop-menu > li {
+    border-bottom: 1px solid #eee;
+    float: none;
+    line-height: initial;
+}
+.mobile-menu-active .main-header.mhdfull .sider.left{
+    left:0px;
+    right: auto;
+    transition: left 0.2s ease;
+}
+body{
+transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.23s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    left: 0;
+}
+/*left-menu*/
+body.slideleftmenu.mobile-menu-active{
+    left: 280px;
+    width:100%;
+    position:absolute!important;
+    transition: left 0.3s ease;
+}
+body.slideleftmenu{
+  left:0px;
+    width:100%;
+    position:absolute!important;
+    transition: left 0.3s ease;  
+}
+body.slideleftmenu.mobile-menu-active:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+        z-index: 999;
+    background:rgba(0,0,0,0.3);
+     -webkit-animation-name: bodyfadeIn;
+            animation-name: bodyfadeIn;
+            
+}
+/*right-menu*/
+.main-header.mhdfull .sider.right {
+    display: block;
+    position: fixed;
+    top: 0;
+        height: 100vh;
+    z-index: 999999;
+    width: 280px;
+    padding: 3em 1.5em;
+    max-width: 100%;
+    border-right: 1px solid rgba(0,0,0,.1);
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 15px;
+    background-color: #fff;
+    color: #555;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-overflow-scrolling: touch;
+}
+.main-header.mhdfull .sider.right {
+    right:-300px;
+    left: auto;
+    transition:right 0.3s ease;
+}
+.mobile-menu-active .main-header.mhdfull .sider.right{
+    left:auto;
+    right:0;
+    transition: right 0.3s ease;
+}
+body.sliderightmenu.mobile-menu-active{
+    right: 300px;
+    width:100%;
+    left:auto;
+    position:absolute!important;
+    transition:right 0.3s ease;
+}
+body.sliderightmenu{
+    right:0px;
+    left:auto;
+    width:100%;
+    position:absolute!important;
+    transition:right 0.3s ease;  
+}
+body.sliderightmenu.mobile-menu-active:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+        z-index: 999;
+    background:rgba(0,0,0,0.3);
+     -webkit-animation-name: bodyfadeIn;
+            animation-name: bodyfadeIn;
+            
+}
+.sliderightmenu.mobile-menu-active .menu-toggle .menu-btn{
+    display:none;
+  transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;  
+}
+@-webkit-keyframes bodyfadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+}
+         
+         @keyframes bodyfadeIn{
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+ }
+/*center over menu*/
+.mhdfull.mobile-menu-active .sider.almaira-shop-menu-hide.overcenter{
+display:none;
+}
+.mhdfull.mobile-menu-active .sider.overcenter{
+  position:fixed;
+  left:0px;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:0 auto;
+  height: 100vh;
+  background:#fff;
+  display:block;
+  z-index: 9999;
+      -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+        -webkit-animation: bodyfadeIn .3s;
+    -moz-animation: bodyfadeIn .3s;
+    -ms-animation: bodyfadeIn .3s;
+    -o-animation: bodyfadeIn .3s;
+    animation: bodyfadeIn .3s;
+}
+.mobile-menu-active .main-header.mhdfull .sider.overcenter .almaira-shop-menu{
+  float: none;
+  padding-top:50px;
+  max-width:350px;
+  margin:auto;
+}
+.mobile-menu-active .main-header.mhdfull .sider.overcenter .menu-close-btn{
+  margin-top:40px;
+  margin-left:40px;
+}
+.main-header.mhdfull.sider.overcenter{
+   -webkit-animation: bodyfadeIn .3s;
+    -moz-animation: bodyfadeIn .3s;
+    -ms-animation: bodyfadeIn .3s;
+    -o-animation: bodyfadeIn .3s;
+    animation: bodyfadeIn .3s;  
+}
+.main-header.mhdfull .overcenter{
+  display:none;  
+}
+ /*close button css*/
+.main-header.mhdfull .menu-close-btn {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.main-header.mhdfull .menu-close-btn{
+margin-top:10px;
+margin-left:10px;
+    width: 14px;
+    display: block;
+    text-decoration: none;
+    top: .75em;
+    right: 1em;
+    min-width: 1em;
+    min-height: 1em;
+    transform-origin: center;
+    transition: all .3s linear;
+    transition-property: transform;
+    -webkit-backface-visibility: hidden;
+        font-size: 20px;
+        color:#555;
+}
+.main-header.mhdfull .menu-close-btn:before {
+    -webkit-transform: rotateZ(-45deg);
+    -moz-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+    
+}
+.main-header.mhdfull .menu-close-btn:before,.main-header.mhdfull .menu-close-btn:after{
+    content: '';
+    display: block;
+    border-top: 1px solid;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+}
+.main-header.mhdfull .menu-close-btn:after{
+-webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+.main-header.mhdfull .menu-close-btn:hover{
+-webkit-transform: rotateZ(90deg);
+    -moz-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+}
+.main-header.mhdfull .menu-toggle .menu-btn{
+display:flex;
+}
+.main-header.mhdfull .menu-toggle .menu-btn span{
+color:#fff;
+}
+.mhdfull .menu-toggle .menu-btn .text span{
+margin-left:5px;
+}
+.main-header.mhdfull .almaira-shop-menu.collapse span.arrow{
+    position: absolute;
+    right:20px;
+    height: 100%;
+    width: 30px;
+    top: 0;
+}
+.main-header.mhdfull .almaira-shop-menu.collapse li a .arrow:before{
+line-height: 48px;
+    margin-right: 0px;
+}
+.main-header.mhdfull .almaira-shop-menu.collapse > li > ul.sub-menu li > a > .arrow:before {
+    margin-right: 10px;
+
+}
+.main-header.mhdfull .sider .sider-inner ul#almaira-shop-menu,.main-header.mhdfull .almaira-shop-menu li ul.sub-menu{
+    background:transparent!important;
+}
+.main-header.mhdfull .sider .sider-inner ul#almaira-shop-menu.almaira-shop-menu > li > a:hover{
+   background:transparent;
+}
+.main-header.mhdfull .sider.left .almaira-shop-menu > li, .main-header.mhdfull .sider.right .almaira-shop-menu > li{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.main-header.mhdfull .right .menu-close{
+    width: 40px;
+    height: 40px;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+.main-header.mhdfull .left .menu-close{
+    width: 40px;
+    height: 40px;
+    top: 0;
+    position: absolute;
+    right: 0;
+}
+.main-header.mhdfull .sider.overcenter ul#almaira-shop-menu{
+display:block;
+}
+.main-header.mhdfull nav{
+background:transparent;
+}
+.main-header.mhdfull .sider-inner ul.almaira-shop-menu li a, 
+header.mhdminbarleft .sider-inner ul#almaira-shop-menu.almaira-shop-menu > li > a, 
+.mhdminbarleft .sider-inner #almaira-above-menu.almaira-shop-menu li a, 
+header.mhdminbarright .sider-inner ul#almaira-shop-menu.almaira-shop-menu > li > a, 
+.mhdminbarright .sider-inner #almaira-above-menu.almaira-shop-menu li a, 
+header.mhdminbarright .sider-inner ul#almaira-shop-menu.almaira-shop-menu > li > a, 
+.mhdminbarright .almaira-shop-menu li a, 
+header.mhdminbarleft .sider-inner ul#almaira-shop-menu.almaira-shop-menu > li > a, 
+.mhdminbarleft .almaira-shop-menu li a,
+.main-header.mhdfull .almaira-shop-menu li ul.sub-menu li a,
+.main-header.mhdfull .sider-inner ul.almaira-shop-menu li ul.sub-menu li a{
+color:#242424;
+}
+.main-header.mhdfull .sider-inner ul.almaira-shop-menu li a:hover,
+.main-header.mhdfull .sider-inner ul.almaira-shop-menu li ul.sub-menu li a:hover{
+color:#242424;
+}
+
+#almaira-above-menu.almaira-shop-menu > li > a{
+padding:0px 10px 0px 0px;
+font-size:14px;
+}
+/****************************/
+/*end hamburger menu*/
+/****************************/
+@media screen and (max-width: 1024px){
+.abv-two .top-header-col1 .menu-toggle .menu-btn{
+float:none;
+}   
+.mhdfull .top-header .menu-toggle,
+.mhdfull .bottom-header .menu-toggle{
+display:block!important;
+}
+.mobile-above-menu-active .sider.almaira-shop-menu-hide.left,
+.mobile-menu-active .sider.almaira-shop-menu-hide.left,
+.mobile-bottom-menu-active .sider.almaira-shop-menu-hide.left{
+left: -300px;
+right: auto;
+transition: left 0.3s ease;
+}
+.mobile-above-menu-active .sider.almaira-shop-menu-hide.right,
+.mobile-menu-active .sider.almaira-shop-menu-hide.right,
+.mobile-bottom-menu-active .sider.almaira-shop-menu-hide.right{
+left: auto;
+right:-300px;
+transition: right 0.3s ease;
+}
+.mobile-menu-active .almaira-shop-menu .searchfrom #searchform{
+display:block;
+position: relative;
+}
+.mobile-menu-active .almaira-shop-menu  .searchfrom .search-btn{
+display:none;
+}
+.mobile-menu-active li.menu-item.zta-custom-item{
+padding:18px 0px;
+    border: none;
+}
+.mobile-menu-active .almaira-shop-menu .searchfrom{
+float:left;
+}
+.main-header .menu-custom-search .content-social ul.social-icon li{
+
+display: -webkit-inline-box;
+}
+
+.main-header .menu-custom-search .content-social ul.social-icon{
+    margin: 0;
+    display: block;
+}
+.demo{
+		width:96%;
+		padding:2%;
+    }
+    ul[data-menu-style="vertical"] , ul[data-menu-style="accordion"],
+    ul[data-menu-style="vertical"] li ul.sub-menu {
+        width: 100% !important;
+    } 
+    .almaira-shop-menu {
+        float: left;
+        width:100%;
+    }
+    .almaira-shop-menu > li {
+        border-bottom: 1px solid rgba(0,0,0,.1);
+        position:relative;
+       float: none;
+    }       
+    .almaira-shop-menu > li > a i {
+        padding-right: 10px;
+        color: #FF5737;
+    }
+    .almaira-shop-menu > li > a > .arrow:before {
+        float: right;
+        content: "\f105";
+    }
+.sider.left .almaira-shop-menu > li, .sider.right .almaira-shop-menu > li {
+    border-bottom: 1px solid #eee;
+    float: none;
+}
+.left .menu-item-has-children ul{
+padding-left:15px;
+}
+.right .menu-item-has-children ul{
+padding-right:15px;
+}
+.almaira-shop-menu li ul.sub-menu li a {
+    display: block;
+    margin: 0px 0px;
+    padding: 10px 40px 10px 0px!important;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: normal;
+    background: none;
+}
+    li.menu-active > a > .arrow:before {
+        content: "\f107" !important;
+    }
+    .almaira-shop-menu li ul.sub-menu > li {
+        width: 100%;
+    }
+    .almaira-shop-menu li ul.sub-menu li ul.sub-menu li a{
+        padding-left: 30px;
+    }  
+    .almaira-shop-menu li ul.sub-menu li ul.sub-menu li ul.sub-menu li a  {
+        padding-left: 50px;
+    }  
+    .almaira-shop-menu > li > ul.sub-menu {
+        position: static;
+    }
+    .almaira-shop-menu > li > ul.sub-menu > li ul.sub-menu {
+        position: static;
+    }
+    .almaira-shop-menu > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
+        position: static;
+    }
+    .almaira-shop-menu li ul.sub-menu li.menu-active > a > .arrow:before {
+        content: "\f107" !important;
+    }
+  .almaira-shop-menu > li > a,.top-header-bar .almaira-shop-menu > li > a, 
+    .bottom-header-bar .almaira-shop-menu > li > a {
+    padding: 10px 40px 10px 0px!important;
+   }   
+.top-header-bar.abv-two .top-header-col1 .menu-toggle .menu-btn,
+.top-header-bar.abv-three .top-header-col1 .menu-toggle .menu-btn,
+.bottom-header-bar.btm-two .bottom-header-col1 .menu-toggle .menu-btn,
+.bottom-header-bar.btm-three .bottom-header-col1 .menu-toggle .menu-btn{
+float:left;
+}
+/*menu-advance-style*/
+.logged-in.admin-bar .sider{
+top:32px;
+}
+.sider.left {
+    display: block;
+    position: fixed;
+    top: 0;
+        height: 100vh;
+    z-index: 999999;
+    width: 280px;
+    padding: 2em 1.5em;
+    max-width: 100%;
+    border-right: 1px solid rgba(0,0,0,.1);
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 15px;
+    background-color: #fff;
+    color: #555;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-overflow-scrolling: touch;
+}
+.sider.left {
+    left:-280px;
+    right: auto;
+    transition: left 0.2s ease;
+}
+.sider.left .almaira-shop-menu > li,.sider.right .almaira-shop-menu > li {
+    border-bottom: 1px solid #eee;
+    float: none;
+    line-height: initial;
+}
+.mobile-menu-active .sider::-webkit-scrollbar,.sider.overcenter ul#almaira-shop-menu::-webkit-scrollbar {
+    width: 5px;
+}
+.mobile-menu-active .sider.left,
+.mobile-above-menu-active .sider.left,
+.mobile-bottom-menu-active .sider.left{
+    left:0px;
+    right: auto;
+    transition: left 0.2s ease;
+}
+body{
+transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.23s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    left: 0;
+}
+/*left-menu*/
+body.slideleftmenu.mobile-menu-active,
+body.slideleftmenu.mobile-above-menu-active,
+body.slideleftmenu.mobile-bottom-menu-active{
+    left: 280px;
+    width:100%;
+    position:absolute!important;
+    transition: left 0.3s ease;
+}
+body.slideleftmenu{
+  left:0px;
+    width:100%;
+    position:absolute!important;
+    transition: left 0.3s ease;  
+}
+body.slideleftmenu.mobile-menu-active:before,
+body.slideleftmenu.mobile-above-menu-active:before,
+body.slideleftmenu.mobile-bottom-menu-active:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+        z-index: 999;
+    background:rgba(0,0,0,0.3);
+     -webkit-animation-name: bodyfadeIn;
+            animation-name: bodyfadeIn;
+            
+}
+/*right-menu*/
+.sider.right {
+    display: block;
+    position: fixed;
+    top: 0;
+        height: 100vh;
+    z-index: 999999;
+    width: 280px;
+    padding: 3em 1.5em;
+    max-width: 100%;
+    border-right: 1px solid rgba(0,0,0,.1);
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 15px;
+    background-color: #fff;
+    color: #555;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-overflow-scrolling: touch;
+}
+.sider.right {
+    right:-300px;
+    left: auto;
+    transition:right 0.3s ease;
+}
+.mobile-menu-active .sider.right,
+.mobile-above-menu-active .sider.right,
+.mobile-bottom-menu-active .sider.right {
+    left:auto;
+    right:0;
+    transition: right 0.3s ease;
+}
+body.sliderightmenu.mobile-menu-active,
+body.sliderightmenu.mobile-above-menu-active,
+body.sliderightmenu.mobile-bottom-menu-active{
+    right: 300px;
+    width:100%;
+    left:auto;
+    position:absolute!important;
+    transition:right 0.3s ease;
+}
+body.sliderightmenu{
+    right:0px;
+    left:auto;
+    width:100%;
+    position:absolute!important;
+    transition:right 0.3s ease;  
+}
+body.sliderightmenu.mobile-menu-active:before,
+body.sliderightmenu.mobile-above-menu-active:before,
+body.sliderightmenu.mobile-bottom-menu-active:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+        z-index: 999;
+    background:rgba(0,0,0,0.3);
+     -webkit-animation-name: bodyfadeIn;
+            animation-name: bodyfadeIn;
+            
+}
+.sliderightmenu.mobile-menu-active .menu-toggle .menu-btn,
+.sliderightmenu.mobile-above-menu-active .menu-toggle .menu-btn,
+.sliderightmenu.mobile-bottom-menu-active .menu-toggle .menu-btn{
+    display:none;
+  transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;  
+}
+@-webkit-keyframes bodyfadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+}
+         
+         @keyframes bodyfadeIn{
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+ }
+
+ /*center over menu*/
+.mobile-above-menu-active .sider.almaira-shop-menu-hide.overcenter,
+.mobile-menu-active .sider.almaira-shop-menu-hide.overcenter,
+.mobile-bottom-menu-active .sider.almaira-shop-menu-hide.overcenter{
+display:none;
+}
+ .mobile-menu-active .sider.overcenter,
+ .mobile-above-menu-active .sider.overcenter,
+ .mobile-bottom-menu-active .sider.overcenter{
+  position:fixed;
+  left:0px;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:0 auto;
+  height: 100vh;
+  background:#fff;
+  display:block;
+  z-index: 9999;
+      -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+        -webkit-animation: bodyfadeIn .3s;
+    -moz-animation: bodyfadeIn .3s;
+    -ms-animation: bodyfadeIn .3s;
+    -o-animation: bodyfadeIn .3s;
+    animation: bodyfadeIn .3s;
+}
+.mobile-menu-active .sider.overcenter .almaira-shop-menu,
+.mobile-above-menu-active .sider.overcenter .almaira-shop-menu,
+ .mobile-bottom-menu-active .sider.overcenter .almaira-shop-menu{
+  float: none;
+  padding-top:50px;
+  max-width: 350px;
+  margin:auto;
+}
+.mobile-above-menu-active .sider.overcenter .menu-close-btn,
+.mobile-bottom-menu-active .sider.overcenter .menu-close-btn{
+  margin-top:40px;
+  margin-left:40px;
+}
+.sider.overcenter{
+   -webkit-animation: bodyfadeIn .3s;
+    -moz-animation: bodyfadeIn .3s;
+    -ms-animation: bodyfadeIn .3s;
+    -o-animation: bodyfadeIn .3s;
+    animation: bodyfadeIn .3s;  
+}
+.overcenter{
+  display:none;  
+}
+ /*close button css*/
+ .menu-close-btn {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.left .menu-close,.right .menu-close{
+background:#bd8348;
+}
+.overcenter .menu-close .menu-close-btn{
+color:#bd8348!important;
+position: absolute;
+top: 45px;
+}
+.menu-close a:hover{
+color:#fff;
+}
+.menu-close-btn{
+    margin: 10px;
+    width: 14px;
+    display: block;
+    text-decoration: none;
+    top: .75em;
+    right: 1em;
+    min-width: 1em;
+    min-height: 1em;
+    transform-origin: center;
+    transition: all .3s linear;
+    transition-property: transform;
+    -webkit-backface-visibility: hidden;
+    font-size: 20px;
+    color:#fff;
+}
+.menu-close-btn:before {
+    -webkit-transform: rotateZ(-45deg);
+    -moz-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+    
+}
+.menu-close-btn:before,.menu-close-btn:after{
+    content: '';
+    display: block;
+    border-top: 1px solid;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+}
+.menu-close-btn:after{
+-webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+.menu-close-btn:hover{
+-webkit-transform: rotateZ(90deg);
+    -moz-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+}
+/*left pan*/
+.mhdrleftpan .sider{
+left:0;
+position: inherit;
+}
+header.mhdrleftpan .container,
+header.mhdrrightpan .container{
+    width:100%;
+    max-width: 100%;
+    padding:0;
+    margin:0;
+}
+.mhdrleft .almaira-shop-menu {
+    padding-left:0!important;
+}
+.mhdrleftpan .sider .hide-menu,.mhdrrightpan .sider .hide-menu{
+display:block;
+}
+.mhdrleftpan .menu-toggle,
+.mhdrrightpan .menu-toggle{
+display:none!important;
+}
+.mhdrleftpan .sider .menu-close-btn,
+.mhdrrightpan .sider .menu-close-btn{
+display:none;
+}
+.mhdrleftpan .sider.left,
+.mhdrleftpan .sider.right,
+.mhdrrightpan .sider.left,
+.mhdrrightpan .sider.right{
+width: 100%;
+max-width: 100%;
+padding-bottom:0;
+    height: auto;
+}
+.mhdrleftpan .sider.overcenter,
+.mhdrrightpan .sider.overcenter{
+    display: block;
+}
+body.mobile-pan-active{overflow-x: hidden;}
+/*right pan*/
+.mhdrrightpan .sider{
+right:0;
+left:auto;
+position: inherit;
+}
+.mhdrright .almaira-shop-menu {
+    padding-right:0!important;
+}
+.mhdrrightpan .container{
+    width:100%;
+    max-width: 100%;
+    padding:0;
+    margin:0;
+}
+.menu-toggle .menu-btn{
+display:flex;
+}
+.menu-toggle .menu-btn span{
+color:#fff;
+}
+.menu-toggle .menu-btn .text span,.bar-menu-toggle .menu-btn .text span{
+margin-left:5px;
+}
+.almaira-shop-menu.collapse span.arrow{
+    position: absolute;
+    right:20px;
+    height: 100%;
+    width: 40px;
+    top: 0;
+
+}
+.almaira-shop-menu.collapse li a .arrow:before{
+line-height: 40px;
+margin-right: 12px;
+}
+.almaira-shop-menu.collapse > li > ul.sub-menu li > a > .arrow:before{
+    margin-right: 10px;
+
+}
+.sider .sider-inner ul#almaira-shop-menu,.almaira-shop-menu li ul.sub-menu{
+    background:transparent;
+}
+.sider  .sider-inner ul#almaira-shop-menu.almaira-shop-menu > li > a:hover{
+   background:transparent;
+}
+.sider.left .almaira-shop-menu > li, .sider.right .almaira-shop-menu > li{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.right .menu-close{
+    width: 40px;
+    height: 40px;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+.left .menu-close{
+    width: 40px;
+    height: 40px;
+    top: 0;
+    position: absolute;
+    right: 0;
+}
+.sider.overcenter ul#almaira-shop-menu{
+display:block;
+max-height: 500px;
+overflow-y: auto;
+overflow-x: hidden;
+margin-top: 70px;
+padding-top: 0;
+
+}
+.mhdrleftpan .menu-close,
+.mhdrrightpan .menu-close{
+display:none;
+  }
+
+
+.sider .sider-inner ul#almaira-shop-menu.almaira-shop-menu > li > a,
+.sider-inner #almaira-above-menu.almaira-shop-menu li a,
+.sider-inner #almaira-above-menu.almaira-shop-menu li ul.sub-menu li a{
+color:#242424;
+}
+.main-header .sider-inner ul.almaira-shop-menu li ul.sub-menu,.sider-inner #almaira-above-menu.almaira-shop-menu > li > a:hover,
+.sider-inner #almaira-above-menu.almaira-shop-menu li ul.sub-menu,.sider-inner #almaira-above-menu.almaira-shop-menu li ul.sub-menu li a:hover,
+.sider-inner #almaira-above-menu.almaira-shop-menu li ul.sub-menu li:hover,.main-header .main-header-container nav{
+    background:transparent!important;
+}
+.two .main-header-col2 {
+    order: 3;
+    flex: none!important;
+  }
+
+}
+@media screen and (max-width: 768px){
+/*mobile pan style*/
+.header-pan-icon{
+    display: block;
+}
+.mhdrleftpan .header-pan-icon span{
+    position: fixed;
+    top: 10%;
+    left: 0;
+    background-color: #008ec2;
+    color: #fff;
+    font-size: 1.2em;
+    width:30px;
+    height:50px;
+    line-height:50px;
+    text-align: center;
+    z-index: 10000;
+    -webkit-transition: left .2s ease-in-out;
+    -moz-transition: left .2s ease-in-out;
+    transition: left .2s ease-in-out;
+}
+.mhdrrightpan .header-pan-icon span{
+left:auto;
+right:0;
+position: fixed;
+    top: 10%;
+    background-color: #008ec2;
+    color: #fff;
+    font-size: 1.2em;
+    width:30px;
+    height:50px;
+    line-height:50px;
+    text-align: center;
+    z-index: 10000;
+    -webkit-transition: right .2s ease-in-out;
+    -moz-transition: right .2s ease-in-out;
+    transition: right .2s ease-in-out;
+}
+.mobile-pan-active .mhdrleftpan .header-pan-icon span {
+    left: 270px;
+}
+.mobile-pan-active .mhdrrightpan .header-pan-icon span {
+    left: auto;
+    right:270px;
+}
+.mhdrleftpan #page.almaira-site{
+margin-left:auto!important;
+}
+.mhdrrightpan #page.almaira-site{
+margin-right:auto!important;
+}
+ header.mhdrleftpan{
+left: -270px!important;
+right: auto;
+-webkit-transition: left .2s ease-in-out;
+    -moz-transition: left .2s ease-in-out;
+    transition: left .2s ease-in-out;
+}
+header.mhdrrightpan{
+right: -270px!important;
+left: auto;
+-webkit-transition: right .2s ease-in-out;
+    -moz-transition: right .2s ease-in-out;
+    transition: right .2s ease-in-out;
+}
+.mobile-pan-active header.mhdrleftpan{
+left: 0px!important;
+right: auto;
+-webkit-transition: left .2s ease-in-out;
+    -moz-transition: left .2s ease-in-out;
+    transition: left .2s ease-in-out;
+}
+.mobile-pan-active header.mhdrrightpan{
+right: 0px!important;
+left: auto;
+-webkit-transition: right .2s ease-in-out;
+    -moz-transition: right .2s ease-in-out;
+    transition: right .2s ease-in-out;
+}
+.mhdrleftpan #page.almaira-site {
+left:0px!important;
+-webkit-transition: left .2s ease-in-out;
+    -moz-transition: left .2s ease-in-out;
+    transition: left .2s ease-in-out;
+}
+.mhdrrightpan #page.almaira-site {
+right:0px!important;
+-webkit-transition:  right .2s ease-in-out;
+    -moz-transition:  right .2s ease-in-out;
+    transition:  right .2s ease-in-out;
+}
+.mobile-pan-active.mhdrleftpan #page.almaira-site {
+left:270px!important;
+-webkit-transition: left .2s ease-in-out;
+    -moz-transition: left .2s ease-in-out;
+    transition: left .2s ease-in-out;
+}
+.mobile-pan-active.mhdrrightpan #page.almaira-site {
+right:270px!important;
+-webkit-transition: right .2s ease-in-out;
+    -moz-transition: right .2s ease-in-out;
+    transition: right .2s ease-in-out;
+}
+.almaira-site .mhdrleftpan .pan-icon:before{
+content: "\f101";
+font-family:FontAwesome;
+}
+.mobile-pan-active .almaira-site .mhdrleftpan .pan-icon:before{
+content: "\f100";
+font-family:FontAwesome;
+}
+.almaira-site .mhdrrightpan .pan-icon:before{
+content: "\f100";
+font-family:FontAwesome;
+}
+.mobile-pan-active .almaira-site .mhdrrightpan .pan-icon:before{
+content: "\f101";
+font-family:FontAwesome;
+}
+.mhdrleftpan .site-content #primary,
+.mhdrrightpan .site-content #primary {
+    margin: 0px;
+}
+ header.mhdrleftpan .almaira-cart{
+left: -270px!important;
+right: auto;
+-webkit-transition: left .2s ease-in-out;
+    -moz-transition: left .2s ease-in-out;
+    transition: left .2s ease-in-out;
+}
+header.mhdrrightpan .almaira-cart{
+right: -270px!important;
+left: auto;
+-webkit-transition: right .2s ease-in-out;
+    -moz-transition: right .2s ease-in-out;
+    transition: right .2s ease-in-out;
+}
+.cart-pan-active header.mhdrleftpan .almaira-cart{
+left: 0px!important;
+right:auto;
+}
+.cart-pan-active header.mhdrrightpan .almaira-cart{
+right: 0px!important;
+left: auto;
+}
+}
+@media screen and (max-width:544px) {
+/*inline menu*/
+.inline .almaira-logo img{
+height:auto;
+ }
+.inline .two .main-header-container {
+    flex-wrap: nowrap;
+}
+ .mhdrcenter.inline .two .main-header-container {
+    flex-wrap: wrap;
+}
+.stack .two .main-header-col1,
+.stack .two .main-header-col2{
+justify-content: center;
+text-align:center;
+width:100%;
+}
+.stack .almaira-shop-menu .menu-custom-search{
+text-align:left;    
+}
+.main-header.mhdrright.stack .two .main-header-col1{
+text-align:center;
+}
+.main-header.mhdrright .two .main-header-col2{
+justify-content: center;
+}
+}
+
+.mobile-menu-active .almaira-shop-menu ul.sub-menu,
+.mobile-above-menu-active .almaira-shop-menu ul.sub-menu{
+box-shadow:none;
+padding:10px;
+}
+/************************/
+/*menu description style*/
+/************************/
+#almaira-above-menu .menu-item-description,
+#almaira-footer-menu  .menu-item-description{
+display:none;
+}
+nav .menu-item-description{
+    position: absolute;
+    top: -3px;
+    left: calc(100% - 25px);
+    background-color:#bd8348;
+    font-size: 11px;
+    padding: 3px 5px;
+    line-height: 10px;
+    color: #fff;
+}
+nav .menu-item-description:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 6px solid transparent;
+    left: 3px;
+    bottom: -4px;
+}
+/*red*/
+.almaira-shop-menu > li:nth-child(4n+1) .menu-item-description{
+background:rgb(233, 102, 86);
+}
+.almaira-shop-menu > li:nth-child(4n+1) .menu-item-description:after{
+border-top: 4px solid rgb(233, 102, 86);
+}
+/*yellow*/
+.almaira-shop-menu > li:nth-child(4n-2) .menu-item-description{
+background:rgb(243, 200, 36);
+}
+.almaira-shop-menu > li:nth-child(4n+2) .menu-item-description:after{
+border-top: 4px solid rgb(243, 200, 36);
+}
+/*green*/
+.almaira-shop-menu > li:nth-child(4n-1) .menu-item-description{
+background:rgb(52, 210, 147);
+}
+.almaira-shop-menu > li:nth-child(4n-1) .menu-item-description:after{
+border-top: 4px solid rgb(52, 210, 147);
+}
+/*blue*/
+.almaira-shop-menu > li:nth-child(4n) .menu-item-description{
+background:rgb(58, 176, 226);
+}
+.almaira-shop-menu > li:nth-child(4n) .menu-item-description:after{
+border-top: 4px solid rgb(58, 176, 226);
+}
+.mobile-menu-active nav .menu-item-description,
+.mobile-above-menu-active nav .menu-item-description,
+.pan-content nav .menu-item-description{
+    position: relative;
+    top: 0;
+    left: auto;
+    background-color: #bd8348;
+    font-size: 11px;
+    padding: 3px 5px;
+    line-height: 10px;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+

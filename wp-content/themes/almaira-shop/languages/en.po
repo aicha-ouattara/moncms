@@ -1,0 +1,1547 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Almaira Shop\n"
+"POT-Creation-Date: 2019-07-30 17:05+0530\n"
+"PO-Revision-Date: 2019-07-30 17:05+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:20
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:25
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:236
+#: customizer/background/class-almaira-shop-background-image-control.php:241
+msgid "Select Image"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:237
+msgid "Change Image"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:238
+msgid "Remove"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:239
+#: customizer/background/class-almaira-shop-background-image-control.php:283
+msgid "Default"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:240
+msgid "No image selected"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:242
+msgid "Choose Image"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:257
+msgid "Background Repeat"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:258
+msgid "Background Size"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:259
+msgid "Background Position"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:260
+msgid "Background Attachment"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:277
+msgid "No Repeat"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:278
+msgid "Tile"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:279
+msgid "Tile Horizontally"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:280
+msgid "Tile Vertically"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:284
+msgid "Cover"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:285
+msgid "Contain"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:288
+msgid "Left Top"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:289
+msgid "Left Center"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:290
+msgid "Left Bottom"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:291
+msgid "Right Top"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:292
+msgid "Right Center"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:293
+msgid "Right Bottom"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:294
+msgid "Center Top"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:295
+msgid "Center Center"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:296
+msgid "Center Bottom"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:299
+msgid "Fixed"
+msgstr ""
+
+#: customizer/background/class-almaira-shop-background-image-control.php:300
+msgid "Scroll"
+msgstr ""
+
+#: customizer/extend-customizer/class-almaira-shop-wp-customize-section.php:50
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: customizer/extend-customizer/class-almaira-shop-wp-customize-section.php:52
+msgid "Customizing"
+msgstr ""
+
+#: customizer/models/class-almaira-shop-defaults-models.php:25
+msgid "Shaun Matthews"
+msgstr ""
+
+#: customizer/models/class-almaira-shop-defaults-models.php:27
+msgid "Find New Latest Collection"
+msgstr ""
+
+#: customizer/models/class-almaira-shop-defaults-models.php:28
+msgid "Shop Now"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:13
+msgid "Contact Template"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:21
+msgid "View Pro Features"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:30
+msgid "WordPress Default"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:40
+msgid "Background"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:51
+#: customizer/section/layout/footer/above-footer.php:23
+#: customizer/section/layout/footer/widget-footer.php:22
+#: customizer/section/layout/header/above-header.php:21
+msgid "Layout"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:55
+msgid "Container"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:63
+#: customizer/register-panels-and-sections.php:173
+#: customizer/register-panels-and-sections.php:197
+#: customizer/register-panels-and-sections.php:300
+msgid "Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:71
+#: customizer/register-panels-and-sections.php:180
+#: customizer/register-panels-and-sections.php:284
+msgid "Above Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:79
+#: customizer/register-panels-and-sections.php:188
+#: customizer/register-panels-and-sections.php:292
+msgid "Main Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:87
+#: customizer/register-panels-and-sections.php:278
+msgid "Sticky Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:95
+msgid "Transparent Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:104
+#: customizer/register-panels-and-sections.php:214
+msgid "Page Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:113 inc/admin-function.php:368
+msgid "Blog"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:121
+#: customizer/register-panels-and-sections.php:244
+msgid "Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:129
+#: customizer/register-panels-and-sections.php:251
+msgid "Above Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:137
+msgid "Widget Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:145
+#: customizer/register-panels-and-sections.php:268
+msgid "Below Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:156
+msgid "Scroll To Top"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:166
+msgid "Global Colors"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:206
+#: customizer/register-panels-and-sections.php:308
+msgid "Main Menu"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:223
+msgid "Mobile/Pan Color"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:231
+msgid "Product Colors"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:237
+msgid "Single Product Colors"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:260
+msgid "Footer Widget"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:318
+msgid "Sidebar"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:328
+msgid "Social Icon"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:334
+msgid "Product Style"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:341
+msgid "Single Product Page"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:348
+msgid "Cart Page"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:355
+msgid "Checkout Page"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:365
+msgid "Typography"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:368
+msgid "Font Subset"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:374
+msgid "Base Typography"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:380
+msgid "Body"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:387
+#: customizer/repeater/class-almaira-shop-repeater.php:448
+#: customizer/repeater/class-almaira-shop-repeater.php:596
+msgid "Title"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:394
+msgid "Content"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:404
+msgid "Preloader"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:413
+msgid "Frontpage"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:417
+msgid "Slider Settings"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:423
+msgid "Product Filter"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:429
+msgid "Ribbon"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:437
+msgid "Categories"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:444
+msgid "Home Shop"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:453
+msgid "Instagram"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:470
+#: customizer/section/layout/blog/blog-archive.php:95
+#: customizer/section/layout/container/container.php:115
+#: customizer/section/layout/footer/above-footer.php:371
+#: customizer/section/layout/footer/widget-footer.php:87
+#: customizer/section/layout/header/above-header.php:366
+#: customizer/section/layout/header/loader.php:61
+#: customizer/section/layout/header/main-header.php:158
+#: customizer/section/layout/header/page-header.php:50
+#: customizer/section/layout/header/set-identity.php:101
+#: customizer/section/layout/scroll-to-top/scroll-to-top.php:52
+#: customizer/section/layout/social-icon/social-icon.php:152
+#: customizer/section/woo/cart.php:99 customizer/section/woo/checkout.php:38
+#: customizer/section/woo/product.php:107
+#: customizer/section/woo/single-product.php:223
+#, php-format
+msgid "To know more go with this <a target=\"_blank\" href=\"%s\">Doc</a> !"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:157
+msgid "Add new field"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:162
+msgid "Customizer Repeater"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:427
+#: customizer/repeater/class-almaira-shop-repeater.php:438
+#: customizer/repeater/class-almaira-shop-repeater.php:576
+#: customizer/repeater/class-almaira-shop-repeater.php:586
+msgid "Color"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:459
+#: customizer/repeater/class-almaira-shop-repeater.php:607
+msgid "Price"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:470
+#: customizer/repeater/class-almaira-shop-repeater.php:618
+msgid "Number"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:480
+#: customizer/repeater/class-almaira-shop-repeater.php:629
+msgid "Subtitle"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:489
+#: customizer/repeater/class-almaira-shop-repeater.php:638
+#: customizer/section/layout/footer/above-footer.php:58
+#: customizer/section/layout/footer/above-footer.php:73
+#: customizer/section/layout/footer/above-footer.php:144
+#: customizer/section/layout/footer/above-footer.php:158
+#: customizer/section/layout/footer/above-footer.php:227
+#: customizer/section/layout/footer/above-footer.php:241
+#: customizer/section/layout/header/above-header.php:54
+#: customizer/section/layout/header/above-header.php:70
+#: customizer/section/layout/header/above-header.php:139
+#: customizer/section/layout/header/above-header.php:155
+#: customizer/section/layout/header/above-header.php:224
+#: customizer/section/layout/header/above-header.php:241
+msgid "Text"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:498
+#: customizer/repeater/class-almaira-shop-repeater.php:517
+#: customizer/repeater/class-almaira-shop-repeater.php:647
+#: customizer/repeater/class-almaira-shop-repeater.php:665
+#: customizer/repeater/class-almaira-shop-repeater.php:868
+#: customizer/repeater/class-almaira-shop-repeater.php:894
+msgid "Link"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:508
+#: customizer/repeater/class-almaira-shop-repeater.php:656
+msgid "Button Text"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:527
+#: customizer/repeater/class-almaira-shop-repeater.php:674
+msgid "Shortcode"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:546
+#: customizer/repeater/class-almaira-shop-repeater.php:686
+msgid "Delete field"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:758
+#: customizer/repeater/class-almaira-shop-repeater.php:825
+msgid "Icon"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:764
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at Fontawesome Website."
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:806
+#: customizer/repeater/class-almaira-shop-repeater.php:826
+msgid "Image"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:809
+msgid "Upload Image"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:822
+msgid "Image type"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:827
+#: customizer/section/layout/footer/above-footer.php:57
+#: customizer/section/layout/footer/above-footer.php:143
+#: customizer/section/layout/footer/above-footer.php:226
+#: customizer/section/layout/header/above-header.php:53
+#: customizer/section/layout/header/above-header.php:138
+#: customizer/section/layout/header/above-header.php:223
+#: customizer/section/woo/product.php:26
+msgid "None"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:841
+msgid "Social icons"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:846
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at Fontawesome website ."
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:871
+#: customizer/repeater/class-almaira-shop-repeater.php:908
+msgid "Remove Icon"
+msgstr ""
+
+#: customizer/repeater/class-almaira-shop-repeater.php:876
+#: customizer/repeater/class-almaira-shop-repeater.php:914
+msgid "Add Icon"
+msgstr ""
+
+#: customizer/section/color/global-color.php:17
+msgid "Color Scheme"
+msgstr ""
+
+#: customizer/section/color/global-color.php:21
+msgid "Light"
+msgstr ""
+
+#: customizer/section/color/global-color.php:22
+msgid "Dark"
+msgstr ""
+
+#: customizer/section/color/global-color.php:36
+msgid "Theme Color"
+msgstr ""
+
+#: customizer/section/color/global-color.php:68
+#, php-format
+msgid ""
+"Pick color for elements like link, Sale ribbon , MouseHover  etc. To know "
+"more go with this <a target=\"_blank\" href=\"%s\">Doc</a> !"
+msgstr ""
+
+#: customizer/section/layout/blog/blog-archive.php:19
+msgid "Blog Post Content"
+msgstr ""
+
+#: customizer/section/layout/blog/blog-archive.php:23
+msgid "Full Content"
+msgstr ""
+
+#: customizer/section/layout/blog/blog-archive.php:24
+msgid "Excerpt Content"
+msgstr ""
+
+#: customizer/section/layout/blog/blog-archive.php:25
+msgid "No Content"
+msgstr ""
+
+#: customizer/section/layout/blog/blog-archive.php:39
+msgid "Excerpt Length"
+msgstr ""
+
+#: customizer/section/layout/blog/blog-archive.php:59
+msgid "Read More Text"
+msgstr ""
+
+#: customizer/section/layout/blog/blog-archive.php:75
+msgid "Post Pagination"
+msgstr ""
+
+#: customizer/section/layout/blog/blog-archive.php:79
+msgid "Numbered"
+msgstr ""
+
+#: customizer/section/layout/blog/blog-archive.php:80
+msgid "Load More (Pro)"
+msgstr ""
+
+#: customizer/section/layout/blog/blog-archive.php:81
+msgid "Infinite Scroll (Pro)"
+msgstr ""
+
+#: customizer/section/layout/container/container.php:21
+msgid "Container Layout"
+msgstr ""
+
+#: customizer/section/layout/container/container.php:49
+msgid "Container Width"
+msgstr ""
+
+#: customizer/section/layout/container/container.php:70
+msgid "Max Width"
+msgstr ""
+
+#: customizer/section/layout/container/container.php:90
+msgid "Top/Bottom Margin"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:53
+#: customizer/section/layout/header/above-header.php:49
+msgid "Column 1"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:59
+#: customizer/section/layout/footer/above-footer.php:145
+#: customizer/section/layout/footer/above-footer.php:228
+#: customizer/section/layout/header/above-header.php:55
+#: customizer/section/layout/header/above-header.php:140
+#: customizer/section/layout/header/above-header.php:225
+msgid "Menu"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:60
+#: customizer/section/layout/footer/above-footer.php:146
+#: customizer/section/layout/footer/above-footer.php:229
+#: customizer/section/layout/header/above-header.php:56
+#: customizer/section/layout/header/above-header.php:141
+#: customizer/section/layout/header/above-header.php:226
+msgid "Widget"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:61
+#: customizer/section/layout/footer/above-footer.php:147
+#: customizer/section/layout/footer/above-footer.php:230
+#: customizer/section/layout/header/above-header.php:57
+#: customizer/section/layout/header/above-header.php:142
+#: customizer/section/layout/header/above-header.php:227
+msgid "Social Media"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:66
+#: customizer/section/layout/footer/above-footer.php:152
+#: customizer/section/layout/footer/above-footer.php:235
+#: customizer/section/layout/header/above-header.php:63
+#: customizer/section/layout/header/above-header.php:148
+#: customizer/section/layout/header/above-header.php:234
+#: inc/footer-function.php:121 inc/footer-function.php:155
+#: inc/header-function.php:137 inc/header-function.php:188
+msgid "Add your content here"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:89
+#: customizer/section/layout/footer/above-footer.php:174
+#: customizer/section/layout/footer/above-footer.php:274
+#: customizer/section/layout/footer/widget-footer.php:70
+#: customizer/section/layout/header/above-header.php:86
+#: customizer/section/layout/header/above-header.php:188
+#: customizer/section/layout/header/above-header.php:290
+msgid "Go To Widget"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:106
+#: customizer/section/layout/footer/above-footer.php:191
+#: customizer/section/layout/footer/above-footer.php:291
+#: customizer/section/layout/header/above-header.php:103
+#: customizer/section/layout/header/above-header.php:171
+#: customizer/section/layout/header/above-header.php:274
+msgid "Go To Menu"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:123
+#: customizer/section/layout/footer/above-footer.php:208
+#: customizer/section/layout/footer/above-footer.php:257
+#: customizer/section/layout/header/above-header.php:120
+#: customizer/section/layout/header/above-header.php:205
+#: customizer/section/layout/header/above-header.php:257
+msgid "Go To Social Media"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:139
+#: customizer/section/layout/header/above-header.php:134
+msgid "Column 2"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:222
+#: customizer/section/layout/header/above-header.php:219
+msgid "Column 3"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:311
+#: customizer/section/layout/header/above-header.php:308
+msgid "Height"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:335
+#: customizer/section/layout/header/above-header.php:330
+msgid "Bottom Border"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:356
+#: customizer/section/layout/header/above-header.php:351
+msgid "Border Color"
+msgstr ""
+
+#: customizer/section/layout/header/loader.php:15
+msgid "Enable Loader"
+msgstr ""
+
+#: customizer/section/layout/header/loader.php:30
+msgid "Background Color"
+msgstr ""
+
+#: customizer/section/layout/header/loader.php:45
+msgid "Pre Loader Image"
+msgstr ""
+
+#: customizer/section/layout/header/loader.php:46
+msgid "(You can also use GIF image.)"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:22
+msgid "Header Layout"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:61
+msgid "Bottom Border Size"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:82
+msgid "Bottom Border Color"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:95
+msgid "Mobile Menu Open"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:99
+#: customizer/section/layout/scroll-to-top/scroll-to-top.php:35
+msgid "Left"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:100
+msgid "center"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:101
+#: customizer/section/layout/scroll-to-top/scroll-to-top.php:36
+msgid "Right"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:110
+msgid "Enable Search"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:121
+msgid "Enable Wishlist"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:132
+msgid "Enable Account"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:142
+msgid "Enable Cart"
+msgstr ""
+
+#: customizer/section/layout/header/page-header.php:24
+msgid "Image Height"
+msgstr ""
+
+#: customizer/section/layout/header/set-identity.php:27
+msgid "Retina Logo"
+msgstr ""
+
+#: customizer/section/layout/header/set-identity.php:40
+msgid "Display Site Title"
+msgstr ""
+
+#: customizer/section/layout/header/set-identity.php:55
+msgid "Display Tagline"
+msgstr ""
+
+#: customizer/section/layout/header/set-identity.php:75
+msgid "Logo Width"
+msgstr ""
+
+#: customizer/section/layout/header/sticky-header.php:20
+msgid "Stick Main Header"
+msgstr ""
+
+#: customizer/section/layout/header/sticky-header.php:33
+msgid "Select Animation Effect"
+msgstr ""
+
+#: customizer/section/layout/header/sticky-header.php:37
+msgid "Fade"
+msgstr ""
+
+#: customizer/section/layout/header/sticky-header.php:38
+msgid "Slide"
+msgstr ""
+
+#: customizer/section/layout/header/sticky-header.php:51
+#, php-format
+msgid ""
+"Sticky header will fix your header on the top, whenever you scroll the site, "
+"it will scroll down with it. To know more go with this <a target=\"_blank\" "
+"href=\"%s\">Doc</a> !"
+msgstr ""
+
+#: customizer/section/layout/scroll-to-top/scroll-to-top.php:17
+msgid "Disable Scroll To Top"
+msgstr ""
+
+#: customizer/section/layout/scroll-to-top/scroll-to-top.php:31
+msgid "Position"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:16
+msgid "Show Original Color"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:27
+msgid "Facebook URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:39
+msgid "Google+ URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:51
+msgid "LinkedIn URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:63
+msgid "Pinterest URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:76
+msgid "Twitter URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:88
+msgid "Instagram URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:100
+msgid "Tumblr URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:112
+msgid "Youtube URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:124
+msgid "Stumbleupon URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:136
+msgid "Dribble URL"
+msgstr ""
+
+#: customizer/section/woo/cart.php:22
+msgid "Enable Distraction Free Cart."
+msgstr ""
+
+#: customizer/section/woo/cart.php:53
+#: customizer/section/woo/single-product.php:101
+#: customizer/section/woo/single-product.php:175
+msgid "Number Of Column To Show"
+msgstr ""
+
+#: customizer/section/woo/cart.php:75
+#: customizer/section/woo/single-product.php:125
+#: customizer/section/woo/single-product.php:199
+msgid "Number Of Product To Show"
+msgstr ""
+
+#: customizer/section/woo/checkout.php:22
+msgid "Enable Distraction Free Checkout."
+msgstr ""
+
+#: customizer/section/woo/product.php:22
+msgid "Product Image Hover Style"
+msgstr ""
+
+#: customizer/section/woo/product.php:27
+msgid "Zoom"
+msgstr ""
+
+#: customizer/section/woo/product.php:28
+msgid "Swap"
+msgstr ""
+
+#: customizer/section/woo/product.php:39
+msgid "Enable Quick View."
+msgstr ""
+
+#: customizer/section/woo/product.php:59
+msgid "Product Box shadow"
+msgstr ""
+
+#: customizer/section/woo/product.php:84
+msgid "Product Box shadow on Hover"
+msgstr ""
+
+#: customizer/section/woo/single-product.php:23
+msgid "Force to disable sidebar in single product page."
+msgstr ""
+
+#: customizer/section/woo/single-product.php:40
+msgid "Product Description Tab"
+msgstr ""
+
+#: customizer/section/woo/single-product.php:47
+msgid "Display Product Description Tab"
+msgstr ""
+
+#: customizer/section/woo/single-product.php:58
+msgid "Product Tab Layout"
+msgstr ""
+
+#: customizer/section/woo/single-product.php:62
+msgid "Horizontal"
+msgstr ""
+
+#: customizer/section/woo/single-product.php:63
+msgid "Vertical"
+msgstr ""
+
+#: customizer/section/woo/single-product.php:77
+msgid "Up Sell Product"
+msgstr ""
+
+#: customizer/section/woo/single-product.php:85
+msgid "Display up sell product"
+msgstr ""
+
+#: customizer/section/woo/single-product.php:149
+msgid "Related Product"
+msgstr ""
+
+#: customizer/section/woo/single-product.php:157
+msgid "Display Related product"
+msgstr ""
+
+#: customizer/view-pro-feature.php:19
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span> Drag & "
+"Drop Section Ordering"
+msgstr ""
+
+#: customizer/view-pro-feature.php:29
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span>Advance "
+"Typography"
+msgstr ""
+
+#: customizer/view-pro-feature.php:39
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span> Off "
+"Canvas Filter "
+msgstr ""
+
+#: customizer/view-pro-feature.php:51
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span>Full "
+"Color Control"
+msgstr ""
+
+#: customizer/view-pro-feature.php:62
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span> More "
+"Header Layout"
+msgstr ""
+
+#: customizer/view-pro-feature.php:72
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span>More "
+"Footer Layout"
+msgstr ""
+
+#: customizer/view-pro-feature.php:84
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span>About Us "
+"Template"
+msgstr ""
+
+#: customizer/view-pro-feature.php:94
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span>Team "
+"Template"
+msgstr ""
+
+#: customizer/view-pro-feature.php:106
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span>FAQ "
+"Template"
+msgstr ""
+
+#: customizer/view-pro-feature.php:117
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span> Brand "
+"Section"
+msgstr ""
+
+#: customizer/view-pro-feature.php:128
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span> Service "
+"Section"
+msgstr ""
+
+#: customizer/view-pro-feature.php:140
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span> Four "
+"Custom Section"
+msgstr ""
+
+#: customizer/view-pro-feature.php:151
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span> Product "
+"Slider Widget"
+msgstr ""
+
+#: customizer/view-pro-feature.php:161
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span> "
+"Category Product Slider Widget"
+msgstr ""
+
+#: customizer/view-pro-feature.php:172
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span> "
+"Floating Cart "
+msgstr ""
+
+#: customizer/view-pro-feature.php:182
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span> Fixed "
+"Footer"
+msgstr ""
+
+#: customizer/view-pro-feature.php:193
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span> "
+"Loadmore & Infinite Scroll"
+msgstr ""
+
+#: customizer/view-pro-feature.php:204
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span>Copyright"
+msgstr ""
+
+#: customizer/view-pro-feature.php:216
+msgid ""
+"<span class=\"view-pro\">Pro</span> <span class=\"pro-desc\"></span>Header "
+"transparency"
+msgstr ""
+
+#: customizer/view-pro-feature.php:230
+#, php-format
+msgid ""
+"<a class=\"get-pro-version\" target=\"_blank\" href=\"%s\">Get The Pro "
+"Version !</a>"
+msgstr ""
+
+#: functions.php:99
+msgid "Default Header Image"
+msgstr ""
+
+#: functions.php:122
+msgid "Hunk Companion"
+msgstr ""
+
+#: functions.php:126
+msgid "Woocommerce"
+msgstr ""
+
+#: functions.php:130
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: functions.php:134
+msgid "YITH WooCommerce Compare"
+msgstr ""
+
+#: functions.php:138
+msgid "Lead Form Builder"
+msgstr ""
+
+#: functions.php:142
+msgid "One Click Demo Import"
+msgstr ""
+
+#: functions.php:161
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:163
+msgid "Add widgets here to appear in your primary sidebar."
+msgstr ""
+
+#: functions.php:170
+msgid "Above Header First Widget"
+msgstr ""
+
+#: functions.php:172 functions.php:181
+msgid "Add widgets here to appear in top header."
+msgstr ""
+
+#: functions.php:179
+msgid "Above Header Second Widget"
+msgstr ""
+
+#: functions.php:188
+msgid "Footer Top First Widget"
+msgstr ""
+
+#: functions.php:190 functions.php:199
+msgid "Add widgets here to appear in top footer."
+msgstr ""
+
+#: functions.php:197
+msgid "Footer Top Second Widget"
+msgstr ""
+
+#: functions.php:207
+#, php-format
+msgid "Footer Widget Area %d"
+msgstr ""
+
+#: inc/admin-function.php:38
+msgid "Header Above Menu"
+msgstr ""
+
+#: inc/admin-function.php:39
+msgid "Main"
+msgstr ""
+
+#: inc/admin-function.php:40
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/admin-function.php:356
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/blog-function.php:83
+msgid "Read More"
+msgstr ""
+
+#: inc/footer-function.php:60 inc/footer-function.php:66
+#: inc/footer-function.php:72 inc/footer-function.php:78
+#: inc/footer-function.php:136 inc/footer-function.php:169
+#: inc/header-function.php:168 inc/header-function.php:219
+msgid "Add Widget"
+msgstr ""
+
+#: inc/footer-function.php:103
+#, php-format
+msgid "Powered by %s."
+msgstr ""
+
+#: inc/footer-function.php:105
+msgid "https://themehunk.com/product/almaira-shop-wordpress-theme/"
+msgstr ""
+
+#: inc/footer-function.php:106
+#, php-format
+msgid "Designed by %s"
+msgstr ""
+
+#: inc/footer-function.php:129 inc/footer-function.php:162
+msgid "Assign footer menu"
+msgstr ""
+
+#: inc/header-function.php:160 inc/header-function.php:211
+msgid "Assign Above header menu"
+msgstr ""
+
+#: inc/header-function.php:284
+msgctxt "placeholder"
+msgid "Search&hellip;"
+msgstr ""
+
+#: inc/header-function.php:284
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: inc/header-function.php:285
+msgctxt "submit button"
+msgid "Submit"
+msgstr ""
+
+#: inc/woocommerce/quick-view/quick-view-product-image.php:52
+msgid "Placeholder"
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:79
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:81
+msgid "Add widgets here to appear in your WooCommerce Sidebar."
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:88
+msgid "Product Sidebar"
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:90
+msgid "This sidebar will be used on Single Product page."
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:206
+msgid "No more products to show."
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:281
+msgid "Quick View"
+msgstr ""
+
+#: inc/woocommerce/woo-function.php:169
+#: inc/woocommerce/woocommerce-ajax.php:135
+msgid "No products found"
+msgstr ""
+
+#: inc/woocommerce/woo-function.php:189
+#: inc/woocommerce/woocommerce-ajax.php:131
+msgid "Load More"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:248
+msgid "Browse:"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:249
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:250
+msgid "Home"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:251
+msgid "404 Not Found"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:252
+msgid "Archives"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:254
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:256
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:258
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:260
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:712
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:729
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:746
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:762 lib/breadcrumbs/breadcrumbs.php:791
+#: lib/breadcrumbs/breadcrumbs.php:818 lib/breadcrumbs/breadcrumbs.php:845
+#: lib/breadcrumbs/breadcrumbs.php:1186
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:763 lib/breadcrumbs/breadcrumbs.php:819
+#: lib/breadcrumbs/breadcrumbs.php:1190
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:764 lib/breadcrumbs/breadcrumbs.php:1194
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:792
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: lib/page-meta-box/almaira-page-meta-box.php:25
+msgid "Dynamic Sidebar"
+msgstr ""
+
+#: lib/page-meta-box/almaira-page-meta-box.php:36
+msgid "No Sidebar"
+msgstr ""
+
+#: lib/page-meta-box/almaira-page-meta-box.php:37
+msgid "Right Sidebar"
+msgstr ""
+
+#: lib/page-meta-box/almaira-page-meta-box.php:38
+msgid "Left Sidebar"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:75
+msgid "Almaira Shop Options"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: lib/theme-option/class-almaira-shop-admin-settings.php:76
+#: lib/theme-option/view-general.php:15
+msgid "Almaira Shop"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:116
+msgid "Welcome"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:151
+msgid "Activating Importer Plugin "
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:153
+#: lib/theme-option/class-almaira-shop-admin-settings.php:284
+msgid "See Library"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:227
+msgid "Recommended Plugins"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:244
+msgid "Import Demo Site"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:253
+#, php-format
+msgid ""
+"Now you can smoothly Import whole data of %1$s just in One click. Install "
+"the Importer Plugin"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:265
+msgid "Activate Importer Plugin"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:276
+msgid "Install Importer Plugin"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:316
+msgid "Learn More"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:322
+#, php-format
+msgid ""
+"Want to know how does theme works ? Navigate to our Documentation and get "
+"whole knowledge about %1$s."
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:329
+msgid "Visit Us"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:353
+msgid "Join Community"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:363
+msgid ""
+"Join the community of friendly ThemeHunk users. Get connected, share "
+"opinion, ask questions and help each other !"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:370
+msgid "Join us on Facebook"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:392
+msgid "Customer Support"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:399
+msgid ""
+"Need Help ? Nothing to worry, just go with our Support forum. We'll be happy "
+"to assist you with any theme related questions."
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:406
+msgid "Submit a Ticket"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:428
+msgid "Get More Options with Almaira Pro!"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:444
+#, php-format
+msgid ""
+"Want more features and extended functionalities of %1$s. Just go with "
+"Almaira Pro and Enjoy creating your online store"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:451
+msgid "Go with Almaira Pro"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:509
+msgid "Plugin Activated"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:515
+msgid "Install Now"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:537
+msgid "Activate Now"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:582
+msgid "Details"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:627
+msgid "Easy to use, Fully Customizable, Unique options"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:678
+msgid "No plugin specified"
+msgstr ""
+
+#: lib/theme-option/class-almaira-shop-admin-settings.php:708
+msgid "Plugin Successfully Activated"
+msgstr ""
+
+#: lib/theme-option/theme-option-function.php:52
+#: lib/theme-option/theme-option-function.php:55
+#, php-format
+msgid "Thank you for Installing %1$s - Version %2$s"
+msgstr ""
+
+#: lib/theme-option/theme-option-function.php:62
+#: lib/theme-option/theme-option-function.php:66
+#, php-format
+msgid "Visit %1$s options page to take full advantage of theme."
+msgstr ""
+
+#: lib/theme-option/theme-option-function.php:76
+#: lib/theme-option/theme-option-function.php:79
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#: searchform.php:11
+msgid "search.."
+msgstr ""
+
+#: searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: template-parts/author-bio.php:18
+msgid "Written by"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:17 template-parts/content-post.php:41
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:29
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/content-post.php:30
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid ""
+"https://themehunk.com/product/almaira-shop-multipurpose-responsive-ecommerce-"
+"theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Almaira is a lightweight eCommerce multipurpose theme, You can create any "
+"type of store site using it. Best suited for furniture, grocery, clothing, "
+"electronic, food, home appliances site, gadget store, fashion shop and "
+"decorative stores. Theme option panel is so easy to use, Which definitely "
+"enhance your site making experience. Some theme features are #compare "
+"product, #quick view, #translation ready, #shop with category, #hero slider, "
+"#Product Filter, #Home shop, #Instagram feed, #call to action. Theme is "
+"deeply integrated with Woocommerce plugin. And comes with professionally "
+"designed desktop view as well as with specially focused Mobile view for "
+"better user experience. See demo here: https://themehunk.com/wp-themes/"
+"almaira-shop-light-scheme/."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeHunk"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.themehunk.com"
+msgstr ""
